@@ -1,3 +1,25 @@
+## Introduction
+### 1.1 Purpose 
+The purpose of this document is to provide a comprehensive software requirements specification for the Duolingo language learning application. This document will serve as a reference for the development team and stakeholders involved in the project to ensure that the final product meets the requirements and expectations of all parties involved.
+
+There are over 1.2 billion people learning a language and the majority are doing so to gain access to better opportunities. Unfortunately, learning a language is expensive and inaccessible to most. We created Duolingo so that everyone could have a chance. Free language education – no hidden fees, no premium content, just free.
+
+Duolingo is used by the richest man in the world and many Hollywood stars, and at the same time by public schools students in developing countries. We believe true equality is when spending more can't buy you a better education.
+
+### 1.2 Document Conventions 
+Will put all headings here in tabular format.
+
+### 1.3 Intended Audience and Reading Suggestions 
+This document is intended for the development team, project managers, and stakeholders involved in the Duolingo application development. The primary audience of this document is the development team responsible for the design, development, and testing of the application. Other stakeholders, such as investors, marketing team, and end-users, may also find this document useful to understand the application's functionalities and requirements.
+
+To fully understand the application's requirements, it is suggested to read the document in its entirety. However, stakeholders who are only interested in specific sections may refer to the table of contents to navigate the document.
+
+### 1.4 Project Scope 
+The project scope includes the design and development of the Duolingo language learning application for iOS and Android platforms. The application will provide language learning courses for various languages, including English, Spanish, French, German, Italian and many more. The application will include features such as gamification, social learning, in-app purchases, and offline learning.
+
+### 1.5 References
+
+
 ## Overall Description
 ### 2.1. Product Perspective:
 The Duolingo app is an interactive language-learning platform that can be accessed via a web browser or mobile application, developed by Duolingo Inc.  The product is aimed at language learners of all ages and backgrounds, with the help of user-friendly interface including fun and interactive exercises. The focus is to provide guidance and help to all the users of the application to learn a wide variety of languages, by provide different learning materials, daily practice sessions, community help and interactive games to capture the learner’s interest.
