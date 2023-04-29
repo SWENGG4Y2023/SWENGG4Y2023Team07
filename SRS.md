@@ -77,3 +77,50 @@ The Duolingo app provides support for multiple languages, including English, Spa
 The Duolingo app provides an easy-to-use interface that is intuitive and user-friendly. The system should provide clear and concise instructions, error messages, and feedback to guide the user through the learning process.
 ### 3.10 System Feature 10
 The Duolingo app provides a reliable and scalable infrastructure that can handle large volumes of users and traffic. The system should also provide high availability, fault tolerance, and disaster recovery capabilities to ensure that the app is always accessible to users.
+
+## 4. External Interface Requirements
+
+### 4.1 User Interfaces 
+
+The Duolingo app should have an intuitive and easy-to-use interface that provides a seamless user experience. The app must be designed to be user-friendly and accessible for users of all ages, languages, and backgrounds. Having a gamification approach to education, attempting to make study and practice more engaging that a Candy Crush game will be the way to go. The app should have a clear and concise interface with intuitive navigation, easy-to-read text, and appropriate colours, graphics, and sound effects. Usage of iconography would can attract more users and the existing users to keep using the application.
+
+
+### 4.2 Hardware Interfaces 
+
+The Duolingo app should be compatible with a variety of hardware devices, including smartphones, tablets, and laptops. The app should be optimised for different screen sizes and resolutions, and should make use of the various input mechanisms available on different devices, such as touchscreens, keyboards, and microphones.
+The basic specification a device should have is:
+
+#### smartphones :
+    	Processor: any processor
+	RAM: 4GB or above
+
+#### iPhone
+	Requires iOS 14.0 or later
+
+#### Tablets : 
+	iPad
+	Requires iPadOS 14.0 or later
+	iPod touch
+	Requires iOS 14.0 or later
+
+#### laptops :
+  Processor: any
+  RAM: 512MB or above
+  Hard Disk: 40GB or above
+  Input Devices: Keyboard, Mouse
+  Output Devices: Monitor; -14” VGA
+
+	#### Mac
+	Requires macOS 11.0 or later and a Mac with Apple M1 chip or later
+
+	#### Android
+  android 5.0 or later
+
+### 4.3 Software Interfaces 
+
+The Duolingo app should be designed to integrate with other software systems, such as social media platforms like Facebook, Twitter and other language learning apps. It should be developed for all versions of windows and IOS operating systems. The app should be built on Amazon Web Services, Python for the backend development, and jQuery, backbone. js, and Bootstrap for the front-end experience. Technologies that support API, integration, data exchange, compatability requirements must be used.
+
+
+### 4.4 Communications Interfaces 
+
+The Duolingo app should be able to communicate with external servers to provide online features, such as cloud-based storage, synchronisation across multiple devices, and social networking. The app should also be able to communicate with external APIs to provide additional functionality, such as speech recognition. The app should be able to connect to internet for accessing user data, sending data to Duolingo servers via a secure and reliable connection.
