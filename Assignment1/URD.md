@@ -46,7 +46,7 @@ Persona - Srikesh is a student from a university who has accquired an interest i
 2. If the Srikesh is not already loged in they are presented with the SignUp/Login screen. If they dont have an existing account they are required to create a new account using google account, facebook or using standard email and password. The user is required to enter the necessary information like the name, age, phone number, etc, which are validated as well. 
 
 For an already existing user, they can signup with their existing credentials or through their registed phone number and OTP.
-![SignUp or Login Screen](Images\signup-login.jpeg)
+![SignUp or Login Screen](Images/signup-login.jpeg)
 
 3. Next the user is presented with a home sceen where they can view their progress map for a particular language, simillarly other statistics like their streak scrore, points collected(Rubies), are also visiable on the header. 
 The taskbar shows several icons representing the home page, current Leagues page, user profile page, achivements collected page and the ongoing feed.
