@@ -145,11 +145,11 @@ The Duolingo app should be designed in a way which have a good performance toget
  
 ### 5.2 Safety Requirements:
 
-The Duolingo app should be designed with safety in mind, with appropriate safeguards to protect user data and prevent unauthorized access. The app should be designed to comply with relevant data privacy and security regulations, such as GDPR and CCPA.
+The Duolingo app should be designed with safety in mind, with appropriate safeguards to protect user data and prevent unauthorized access. The app should be designed to comply with relevant data privacy and security regulations, such as GDPR and CCPA. Before releasing to each country, we should make sure that app is compliant with the rules and regulations of that country.
 
 ### 5.3 Security Requirements:
 
-The Duolingo app should be designed to be highly secure, with access controls to prevent unauthorized access, theft, and other security breaches. The app should use industry-standard encryption protocols to protect user data both in transit and at rest. 
+The Duolingo app should be designed to be highly secure, with access controls to prevent unauthorized access, theft, and other security breaches. The app should use industry-standard encryption protocols to protect user data both in transit and at rest. Security tests should be run regularly to identify potential open vulnerabilities.
 
 ### 5.4 Software Quality Attributes:
 
