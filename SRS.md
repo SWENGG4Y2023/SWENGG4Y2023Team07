@@ -134,3 +134,22 @@ The Duolingo app should be designed to integrate with other software systems, su
 ### 4.4 Communications Interfaces 
 
 The Duolingo app should be able to communicate with external servers to provide online features, such as cloud-based storage, synchronisation across multiple devices, and social networking. The app should also be able to communicate with external APIs to provide additional functionality, such as speech recognition. The app should be able to connect to internet for accessing user data, sending data to Duolingo servers via a secure and reliable connection.
+
+## Other Non-functional Requirements
+
+### 5.1 Performance Requirements:
+
+The Duolingo app should be designed in a way which have a good performance together with all the features and responsiveness. Application should be able to load faster with low latency. The app should be checked for performance with a large number of users. Design should be in a way so that even if we scale up, performance should not be affected. Also the app should be optimized for low-bandwidth and high-latency networks.
+ 
+### 5.2 Safety Requirements:
+
+The Duolingo app should be designed with safety in mind, with appropriate safeguards to protect user data and prevent unauthorized access. The app should be designed to comply with relevant data privacy and security regulations, such as GDPR and CCPA. Before releasing to each country, we should make sure that app is compliant with the rules and regulations of that country.
+
+### 5.3 Security Requirements:
+
+The Duolingo app should be designed to be highly secure, with access controls to prevent unauthorized access, theft, and other security breaches. The app should use industry-standard encryption protocols to protect user data both in transit and at rest. Security tests should be run regularly to identify potential open vulnerabilities.
+
+### 5.4 Software Quality Attributes:
+
+The Duolingo app should be designed to be highly reliable and maintainable, with high-quality code that is easy to read, debug, and modify. The app should be designed to be highly scalable and extensible, with the ability to add new features and functionality as needed. Proper DevOps standards should be maintained to ensure minimal downtime and rapid recovery in the event of a failure or outage.
+
