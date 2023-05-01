@@ -69,26 +69,24 @@ Duolingo application has the following dependencies:
 
 
 ## System Features ##
-### 3.1 System Feature 1
-This feature of the Duolingo app is the ability to create and manage user accounts. Users can sign up for an account, login and logout of their account, and edit their profile information. The system should also be able to handle password reset requests.
-### 3.2 System Feature 2
-The Duolingo app provides a wide range of language courses and learning materials for different levels of learners. Users can select their preferred language courses and access the lessons, exercises, and tests associated with the course. The system should also track user progress and provide recommendations for further learning based on the user's performance.
-### 3.3 System Feature 3
-This feature of the Duolingo app is the ability to provide a personalized learning experience to users. The system should be able to adapt to the user's learning style, pace, and preferences to provide a customized learning experience. The app should also provide real-time feedback to the user to help them improve their language skills.
-### 3.4 System Feature 4
-The Duolingo app provides a social learning platform that allows users to connect with other learners and native speakers. Users can engage in discussions, share language tips, and participate in language exchange programs. The system should also provide a safe and secure environment for users to interact with each other.
-### 3.5 System Feature 5
-The Duolingo app provides a gamified learning experience that motivates users to continue learning. Users can earn rewards, badges, and streaks for completing lessons, exercises, and tests. The system should also provide a leaderboard to encourage friendly competition among users.
-### 3.6 System Feature 6
-The Duolingo app provides offline access to language lessons, exercises, and tests. Users can download the learning materials to their device and access them even when they are not connected to the internet. The system should also synchronize user progress when the user reconnects to the internet.
-### 3.7 System Feature 7
-The Duolingo app provides support for multiple platforms, including mobile devices and web browsers. Users can access the app from their smartphones, tablets, and computers. The system should also provide a seamless experience across different platforms.
-### 3.8 System Feature 8
-The Duolingo app provides support for multiple languages, including English, Spanish, French, German, and many others. The system should also provide support for different language scripts, such as Latin, Cyrillic, Arabic, and Chinese.
-### 3.9 System Feature 9
-The Duolingo app provides an easy-to-use interface that is intuitive and user-friendly. The system should provide clear and concise instructions, error messages, and feedback to guide the user through the learning process.
-### 3.10 System Feature 10
-The Duolingo app provides a reliable and scalable infrastructure that can handle large volumes of users and traffic. The system should also provide high availability, fault tolerance, and disaster recovery capabilities to ensure that the app is always accessible to users.
+### 3.1 System Interface
+Duolingo is not only a web application which can easily be accessed from any browser on any available system with an active internet connection but also a mobile application which is available for both android and IOS systems. Users can seamlessly access the application from their smartphones, tablets, or any computer.
+### 3.2 User Profile
+The Duolingo application has the ability to create and manage user accounts. Users can sign up for an account, login, and logout of their account, edit their profile information and send password reset requests. Users can also customize their application settings based on their needs.
+### 3.3 Language Courses
+The Duolingo application provides a wide range of language courses (more than 30 languages) and learning materials for different levels of learners. Users can select their preferred language courses and access the lessons, exercises, and tests associated with the course. It offers interactive lessons that include reading, writing, listening, and speaking exercises to help users improve their language skills.
+### 3.3 Personalized learning
+This feature of the Duolingo app is the ability to provide a personalized learning experience to users. It uses machine learning algorithms to personalize and adapt to the learning experience based on each user's learning style, pace, preferences, progress, and performance. The app also provides real-time feedback to the user to help them improve their language skills. 
+### 3.4 Progress tracking
+Duolingo allows users to track their progress, including their completed lessons, time spent on the platform, and level of proficiency. It not only tracks user progress but also provide recommendations for further learning based on the user's performance.
+### 3.5 Gamification
+The Duolingo application provides a gamified learning experience that motivates users to continue learning. Users can earn rewards, badges, and streaks for completing lessons, exercises, and tests. It also provides a leaderboard to encourage friendly competition among users during leagues. This provides for an interesting user interface that captures the users, so that they can enjoy their learning journey.
+### 3.6 Social features
+Duolingo provides a social learning platform that allows users to connect with other learners and native speakers. The social features also allow users to connect with friends, compete against each other, and share their progress on social media. Users can engage in discussions, share language tips, and participate in language exchange programs and different language leagues, while ensuring a safe and secure environment for all users to interact with each other.
+### 3.7 Premium Features
+Duolingo’s premium users are offered offline access to language lessons, exercises, and tests. Users can download the learning materials to their device and access them even when they are not connected to the internet. It synchronizes users progress when they reconnect to the internet.
+### 3.8 Usability features 
+The Duolingo app provides an easy-to-use interface that is intuitive and user-friendly. It provides user with clear and concise instructions, error messages, and feedback to guide the user through the learning process. Users can also reach out to help centers, use user guides, and communicate on the community forum, for any queries and questions. The user feedback option is available in the application to provide honest and helpful reviews to enhance the user satisfaction.
 
 ## 4. External Interface Requirements
 
