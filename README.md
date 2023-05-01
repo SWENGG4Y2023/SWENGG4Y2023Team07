@@ -11,7 +11,7 @@ BITS ID     | Name              | GitHub ID
 <img width="1000" alt="Duolingo" src="https://design.duolingo.com/7d3b95abf67001cde6ea.svg">
 
 
-![GitHub stars](https://img.shields.io/github/stars/SWENGG4Y2023/SWENGG4Y2023Team07)  ![GitHub forks](https://img.shields.io/github/forks/SWENGG4Y2023/SWENGG4Y2023Team07)  ![GitHub pull requests](https://img.shields.io/github/issues-pr/SWENGG4Y2023/SWENGG4Y2023Team07) ![GitHub contributors](https://img.shields.io/github/contributors/SWENGG4Y2023/SWENGG4Y2023Team07)
+![GitHub stars](https://img.shields.io/github/stars/PrashitaK/SWENGG4Y2023Team07)  ![GitHub forks](https://img.shields.io/github/forks/PrashitaK/SWENGG4Y2023Team07)  ![GitHub pull requests](https://img.shields.io/github/issues-pr/PrashitaK/SWENGG4Y2023Team07) ![GitHub contributors](https://img.shields.io/github/contributors/PrashitaK/SWENGG4Y2023Team07)
 
 Duolingo is a popular language learning app that offers users an immersive and engaging way to learn new languages. With over 300 million users worldwide, the app is available in a variety of languages and offers a gamified approach to language learning. Users can learn new vocabulary and grammar through a series of exercises and lessons that are designed to be both fun and effective. The app's interface is user-friendly and intuitive, with a variety of features that allow users to track their progress, set goals, and connect with other learners.Overall, Duolingo is an innovative and effective tool for language learners of all levels, and its popularity is a testament to its success in helping users achieve their language learning goals.
 
