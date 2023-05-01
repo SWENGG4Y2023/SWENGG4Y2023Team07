@@ -20,6 +20,6 @@ One key feature of Duolingo is its gamification approach to language learning. D
 The app also adapts to the user's learning style and progress, providing personalized feedback and recommendations. This gamification approach has made language learning more accessible and fun for users, and has helped Duolingo become one of the most popular language learning apps available today.
 
 ## Documents
-### Stakeholder Document - [Here](https://github.com/PrashitaK/SWENGG4Y2023Team07/blob/main/Stakeholders.md)
-### User requirements document (URD) Document - [Here](https://github.com/SWENGG4Y2023/SWENGG4Y2023Team02/blob/main/Assignment01/URD.md)
-### Software Requirements Specification (SRS) Document  - [Here](https://github.com/PrashitaK/SWENGG4Y2023Team07/blob/main/SRS.md)
+### Stakeholder Document - [Here](https://github.com/PrashitaK/SWENGG4Y2023Team07/blob/main/Assignment1/Stakeholders.md)
+### User requirements document (URD) Document - [Here](https://github.com/PrashitaK/SWENGG4Y2023Team07/blob/main/Assignment1/URD.md)
+### Software Requirements Specification (SRS) Document  - [Here](https://github.com/PrashitaK/SWENGG4Y2023Team07/blob/main/Assignment1/SRS.md)
