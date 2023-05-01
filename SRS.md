@@ -172,34 +172,72 @@ The Duolingo app should be able to communicate with external servers to provide 
 ## 5. Non-functional Requirements
 
 ### 5.1 Performance Requirements:
-- The Duolingo app should have good performance, fast loading times with low latency, and be checked for performance with a large number of users.
-- The app should be optimized for low-bandwidth and high-latency networks, and designed to maintain performance even when scaled up.
+- Good Performance and Fast Loading Times: The Duolingo app should have good performance, fast loading times with low latency, and be checked for performance with a large number of users.
+
+  - Use Case: A user opens the Duolingo app on their smartphone while commuting to work. The app loads quickly and the user is able to begin a lesson within seconds. The app's performance remains consistent even as more users access the app simultaneously.
+
+- Optimized for Low-Bandwidth and High-Latency Networks: The app should be optimized for low-bandwidth and high-latency networks, and designed to maintain performance even when scaled up.
+  - Use Case: A user in a remote area with poor internet connectivity attempts to use the Duolingo app. The app has been optimized to work on low bandwidth networks, allowing the user to access the app and complete lessons despite slow internet speeds. Additionally, as Duolingo's user base grows, the app is designed to maintain performance and remain accessible to all users.
 
 ### 5.2 Safety Requirements:
-- The Duolingo app should be designed with appropriate safeguards to protect user data and prevent unauthorized access.
-- The app should comply with relevant data privacy and security regulations, such as GDPR and CCPA.
-- As the application has a large student community, the content and the materials should be always appropriate for the younger audience.
+- Access Controls: The Duolingo app should be designed with appropriate safeguards to protect user data and prevent unauthorized access.
+  - Use Case: A user creates an account with Duolingo, and the app requires a secure password that meets specific criteria. The app also implements two-factor authentication to ensure that only authorized users can access the account.
+
+- Compliance with Data Privacy and Security Regulations: The app should be designed to comply with relevant data privacy and security regulations, such as GDPR and CCPA.
+  - Use Case: A user in the European Union accesses Duolingo and provides personal data, such as their name and email address. Duolingo implements GDPR requirements by obtaining user consent before collecting and processing this data, and providing the user with the ability to view, modify, or delete their data.
+
+- Industry-standard Encryption Protocols: The Duolingo app should use industry-standard encryption protocols to protect user data both in transit and at rest.
+  - Use Case: A user accesses Duolingo using an unsecured public Wi-Fi network. The app encrypts all data transmitted between the user's device and Duolingo's servers to prevent interception by unauthorized parties.
 
 ### 5.3 Security Requirements:
 - The Duolingo app should be designed to be highly secure, with access controls and industry-standard encryption protocols.
+  - Use Case 1: A user creates an account with Duolingo and provides personal information such as name, email address, and password. Duolingo uses access controls to ensure that only authorized users can access the account. This includes requiring a strong password and implementing two-factor authentication.
+
+  - Use Case 2: A user accesses Duolingo from an unsecured public Wi-Fi network. To ensure that the user's data is protected, Duolingo uses industry-standard encryption protocols to encrypt all data transmitted between the user's device and Duolingo's servers.
+
 - The application should use industry-standard encryption protocols to protect user data both in transit and at rest.
+  - Use Case 1: A user saves their progress on a language lesson on Duolingo. The application encrypts this data and stores it securely on the server, ensuring that only authorized users can access the data.
+
+  - Use Case 2: A user makes a purchase for Duolingo's premium services. The application uses industry-standard encryption protocols to protect the user's payment information, ensuring that the data is secure both in transit and at rest.
 
 ### 5.4 Software Quality Attributes:
-- The Duolingo app should be designed to be highly reliable and maintainable, with high-quality code that is easy to read, debug, and modify.
-- The app should be designed to be highly scalable and extensible, with the ability to add new features and functionality.
-- Proper DevOps standards should be maintained to ensure minimal downtime and rapid recovery in the event of a failure or outage.
+- Reliable and Maintainable Code: The Duolingo app should be designed to be highly reliable and maintainable, with high-quality code that is easy to read, debug, and modify.
+  - Use Case: A bug is discovered in the app that is causing the app to crash for some users. The developers are able to quickly identify and fix the bug due to the app's well-structured and well-documented codebase, resulting in minimal downtime for affected users.
+
+- Scalability and Extensibility: The app should be designed to be highly scalable and extensible, with the ability to add new features and functionality.
+  - Use Case: Duolingo decides to add a new language course to the app. Thanks to its highly scalable and extensible design, the app is able to seamlessly integrate the new course into its existing structure, allowing users to easily access and use the new content.
+
+- DevOps Standards: Proper DevOps standards should be maintained to ensure minimal downtime and rapid recovery in the event of a failure or outage.
+  - Use Case: A server outage causes the app to become temporarily unavailable. Thanks to the app's adherence to DevOps standards, the development team is able to quickly identify and fix the issue, resulting in minimal disruption to users. Additionally, the team is able to implement measures to prevent future outages and ensure high availability of the app.
 
 ### 5.5 Maintainability Requirements:
 - Code should be well-structured with clear and consistent naming conventions.
+  - Use Case: A new developer joins the team and needs to understand how the codebase works. They can easily navigate through the code because the naming conventions are consistent and descriptive, which makes it easier to understand what each function or variable does.
+
 - Processes should be established for version control, code reviews, and testing.
+  - Use Case: A developer makes a change to the code, but it causes a bug in production. By using version control, the team can quickly identify which change caused the bug and roll back to the previous version. Code reviews ensure that changes are reviewed and approved by other team members, reducing the likelihood of errors slipping through. Testing ensures that changes are thoroughly tested before being deployed to production, reducing the likelihood of bugs.
+
 - Documentation should be provided with in-depth details for easy maintainability.
+  - Use Case: A developer needs to make changes to the code, but they don't understand how a particular feature works. By reading the documentation, they can easily understand the functionality and make the necessary changes. In-depth documentation also ensures that if a team member leaves or is unavailable, others can still maintain the codebase without major disruptions.
 
 ### 5.6 Reliability Requirements:
-- The Duolingo app should be designed with fault tolerance and error handling in mind, with the ability to recover from unexpected errors or crashes.
-- App should be able to handle high levels of traffic and usage.
-- The app should be able to handle high levels of traffic and usage and handle data securely without loss.
+- Fault tolerance and error handling: The Duolingo app should be designed with fault tolerance and error handling in mind, with the ability to recover from unexpected errors or crashes.
+  - Use Case: A user is in the middle of a lesson on Duolingo when their device unexpectedly loses internet connection. The app is designed to save the user's progress locally and sync with the server once the connection is restored, ensuring that the user's progress is not lost.
+
+- High levels of traffic and usage: The app should be able to handle high levels of traffic and usage.
+  - Use Case: Duolingo runs a global marketing campaign, resulting in a sudden influx of new users. The app is designed to handle the increased traffic and usage, ensuring that all users can access the app without experiencing lag or downtime.
+
+- Secure data handling: The app should be able to handle high levels of traffic and usage and handle data securely without loss.
+  - Use Case: A user completes a Duolingo lesson, and their progress is saved to the server. The app is designed to handle this data securely, using encryption and proper authentication to ensure that the user's progress is not lost or compromised in any way. Additionally, the app is designed to handle sudden spikes in traffic, ensuring that the user's data is not lost due to server overload or other issues.
+
+
 
 ### 5.7 Interoperability Requirements:
-- The Duolingo app should be designed to be compatible with other systems and software, and able to operate in a variety of environments and platforms.
-- It should be able to exchange data with other systems reliably and securely while adhering to relevant standards and protocols.
-- The app should be able to integrate with other systems through APIs or other methods.
+- Interoperability Requirements: The Duolingo app should be designed to be compatible with other systems and software and able to operate in a variety of environments and platforms.
+  - Use Case: A user downloads the Duolingo app onto their smartphone, which runs on the Android operating system. The app is designed to be compatible with a variety of platforms, including Android, iOS, and web browsers, allowing the user to access the app from multiple devices.
+
+- Reliable and Secure Data Exchange: The app should be able to exchange data with other systems reliably and securely while adhering to relevant standards and protocols.
+  - Use Case: A user connects their Duolingo account to a language exchange platform, which allows them to practice speaking with native speakers of their target language. The app uses secure data exchange methods to ensure that the user's personal information is protected, and adheres to industry standards and protocols to ensure reliable data transfer.
+
+- Integration with other systems: The app should be able to integrate with other systems through APIs or other methods.
+  - Use Case: A language school wants to integrate Duolingo's language learning content into their curriculum. Duolingo provides an API that allows the school to access the app's content and data, and integrate it into their own learning management system. This integration allows the school to provide students with a comprehensive language learning experience that incorporates Duolingo's engaging and effective learning tools.
