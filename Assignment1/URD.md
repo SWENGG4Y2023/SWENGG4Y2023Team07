@@ -46,27 +46,30 @@ Persona - Srikesh is a student from a prestigious university who has acquired an
    
    
 
-    For an already existing user, they can signup with their existing credentials or through their registed phone number and OTP.
+For an already existing user, they can signup with their existing credentials or through their registed phone number and OTP.
 ![SignUp or Login Screen](../Images/signup-login.jpeg)
 
-1. Next Srikesh is presented with a home screen where he can view his progress map for a particular language, similarly other statistics like his streak score, points collected(Rubies), are also visible on the header. 
+3. Next Srikesh is presented with a home screen where he can view his progress map for a particular language, similarly other statistics like his streak score, points collected(Rubies), are also visible on the header. 
 The taskbar shows several icons representing the home page, current Leagues page, user profile page, achievements collected page and the ongoing feed.
 ![Home Page](../Images/progress-map.jpeg)
 
-1. He is required to select the language he wants to learn from the available list. For a native English speaker, the user can view the languages they can learn e.g. Spanish, Italian, French, etc.
+4. He is required to select the language he wants to learn from the available list. For a native English speaker, the user can view the languages they can learn e.g. Spanish, Italian, French, etc.
 Hence Srikesh selects Korean as his language of choice.
 ![Languages List](../Images/Language-choice.jpeg)
 
-1. Srikesh is now presented with a question in which he must state his level of proficiency in the language. Since, he is a novice learner, he chooses the option that states that he is learning Korean for the first time.
+5. Srikesh is now presented with a question in which he must state his level of proficiency in the language. Since, he is a novice learner, he chooses the option that states that he is learning Korean for the first time.
 ![Level - of - Proficiency](../Images/level-of-proficiency.jpeg)
 
-1. Now he begins his journey to learn Korean. He is presented with a quiz in which he is taught the basic sounds and letters of the language, with the help of visual and hearing aids. To make the learning journey intuitive, there are various question types like MCQ's, match the following and fill in the blanks.
+6. Now he begins his journey to learn Korean. He is presented with a quiz in which he is taught the basic sounds and letters of the language, with the help of visual and hearing aids. To make the learning journey intuitive, there are various question types like MCQ's, match the following and fill in the blanks.
+
 ![Learning Lesson](../Images/Quiz.jpeg)
 
 With every question he answers, he is immediately informed of the result with the help of Duo, which provides motivational replies. 
+
 ![Quiz completed](../Images/game-won.jpeg)
 
-7. When the quiz is completed with all questions correctly answered, Srikesh begins his streak scores and earns several points (XPs and Rubies), and the lesson is marked as completed. Again, he is taken back to the progress map page, to start his new lesson or evaluate his progress. He is required to participate daily in the lessons and quizzes to maintain his streak. ![Learning Lesson completed](../Images/lesson-over.jpeg)
+7. When the quiz is completed with all questions correctly answered, Srikesh begins his streak scores and earns several points (XPs and Rubies), and the lesson is marked as completed. Again, he is taken back to the progress map page, to start his new lesson or evaluate his progress. He is required to participate daily in the lessons and quizzes to maintain his streak.
+![Learning Lesson completed](../Images/lesson-over.jpeg)
 ![Daily Streak](../Images/daily-mission.jpeg)
 
 8. After going through months of materials and lessons, Srikesh is able to speak, read and write basic Korean sentences which are required for daily life usage.
