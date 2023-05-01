@@ -37,35 +37,36 @@ Duolingo is an online language-learning platform that offers free courses in ove
 
 **Device Compatibility**: Duolingo should be accessible on mobile devices, or a computer with a compatible operating system to be able to learn on-the-go.
 
-
 ## User Flow
-Persona - Srikesh is a student from a university who has accquired an interest in learnong Korean after watching Kdramas. He heard from his friends that Duolingo is an easy and effective way to learn a new language and hence has started his learning journey.
+Persona - Srikesh is a student from a prestigious university who has acquired an interest in learning Korean after watching KDramas. He heard from his friends that Duolingo is an easy and effective way to learn a new language and hence has started his learning journey.
 
-1. Once the Srikesh opens the mobile application, they are presented with the splash screen of Duolingo, with the owl mascot called Duo. ![Splash Screen](../Images/splash-scrren.jpeg)
+1. Once Srikesh opens the mobile application, he is presented with the splash screen of Duolingo, with the owl mascot called Duo. ![Splash Screen](../Images/splash-scrren.jpeg)
 
-2. If the Srikesh is not already loged in they are presented with the SignUp/Login screen. If they dont have an existing account they are required to create a new account using google account, facebook or using standard email and password. The user is required to enter the necessary information like the name, age, phone number, etc, which are validated as well. 
+2. Since Srikesh is not already logged in he is presented with the Sign Up/Login screen. Since he does not have an existing account he is required to create a new account using google account, Facebook or using standard email and password. He is required to enter the necessary information like the name, age, phone number, etc, which are validated as well. 
+   
+   
 
-For an already existing user, they can signup with their existing credentials or through their registed phone number and OTP.
+    For an already existing user, they can signup with their existing credentials or through their registed phone number and OTP.
 ![SignUp or Login Screen](../Images/signup-login.jpeg)
 
-3. Next the user is presented with a home sceen where they can view their progress map for a particular language, simillarly other statistics like their streak scrore, points collected(Rubies), are also visiable on the header. 
-The taskbar shows several icons representing the home page, current Leagues page, user profile page, achivements collected page and the ongoing feed.
+1. Next Srikesh is presented with a home screen where he can view his progress map for a particular language, similarly other statistics like his streak score, points collected(Rubies), are also visible on the header. 
+The taskbar shows several icons representing the home page, current Leagues page, user profile page, achievements collected page and the ongoing feed.
 ![Home Page](../Images/progress-map.jpeg)
 
-4. For a new user they are required to select the language they want to learn from the available list. For an native english speaker, the user can view the languages they can learn, eg, Spanish, Italian, French, etc.
+1. He is required to select the language he wants to learn from the available list. For a native English speaker, the user can view the languages they can learn e.g. Spanish, Italian, French, etc.
 Hence Srikesh selects Korean as his language of choice.
 ![Languages List](../Images/Language-choice.jpeg)
 
-5. Srikesh is now presented with a question in which he has to state his level of proficiency in the language. Since, he is a novice learner, he chooses the option that states that he is learning Korean for the first time.
+1. Srikesh is now presented with a question in which he must state his level of proficiency in the language. Since, he is a novice learner, he chooses the option that states that he is learning Korean for the first time.
 ![Level - of - Proficiency](../Images/level-of-proficiency.jpeg)
 
-6. Now he begins his journey to lean Korean. He is presented with a quiz in which he is taught the basic sounds and letters of the language, with the help of visual and hearing aids. To make the learnign journey intuitive, there are various question types like MCQ's, match the following and fill in the blanks.
+1. Now he begins his journey to learn Korean. He is presented with a quiz in which he is taught the basic sounds and letters of the language, with the help of visual and hearing aids. To make the learning journey intuitive, there are various question types like MCQ's, match the following and fill in the blanks.
 ![Learning Lesson](../Images/Quiz.jpeg)
 
 With every question he answers, he is immediately informed of the result with the help of Duo, which provides motivational replies. 
 ![Quiz completed](../Images/game-won.jpeg)
 
-7. When the quiz is completed with all questions correctly answered, Srikesh begings his streak scores and earns serveral points(XPs and Rubies), and the lesson is marked as completed. Again he is taken back to the progress map page, to start his new lesson or evaluate his progress. He is required to participate daily in the lessona nd quizes to maintain his streak. ![Learning Lesson completed](../Images/lesson-over.jpeg)
+7. When the quiz is completed with all questions correctly answered, Srikesh begins his streak scores and earns several points (XPs and Rubies), and the lesson is marked as completed. Again, he is taken back to the progress map page, to start his new lesson or evaluate his progress. He is required to participate daily in the lessons and quizzes to maintain his streak. ![Learning Lesson completed](../Images/lesson-over.jpeg)
 ![Daily Streak](../Images/daily-mission.jpeg)
 
-8. After going through months of materials and lessons, Srikesh is able to spreak, read and write basic Korean sentances which required for daily life usage.
+8. After going through months of materials and lessons, Srikesh is able to speak, read and write basic Korean sentences which are required for daily life usage.
