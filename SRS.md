@@ -1,63 +1,81 @@
 ## Table of Contents
--  [1. Introduction](#1-introduction)
-   - [1.1 Purpose](#11-purpose)
-   - [1.2 Document Conventions](#12-document-conventions)
-   - [1.3 Intended Audience and Reading Suggestions](#13-intended-audience-and-reading-suggestions)
-   - [1.4 Project Scope](#14-project-scope)
-   - [1.5 Scope](#15-references)
+- [Table of Contents](#table-of-contents)
+- [1. Introduction](#1-introduction)
+	- [1.1 Purpose](#11-purpose)
+	- [1.2 Intended Audience and Reading Suggestions](#12-intended-audience-and-reading-suggestions)
+	- [1.3 Project Scope](#13-project-scope)
+	- [1.4 References](#14-references)
 - [2. Overall Description](#2-overall-description)
-   -  [2.1 Product Perspective](#21-product-perspective)
-   -  [2.2 Product Features](#22-product-features)
-   -  [2.3 User Classes and Characteristics](#23-user-classes-and-characteristics)
-   -  [2.4 Operating Environment](#24-operating-environment)
-   -  [2.5 Design and Implementation Constraints](#25-design-and-implementation-constraints)
-   -  [2.6 User Documentation](#26-user-documentation)
-   -  [2.7 Assumptions and Dependencies](#27-assumptions-and-dependencies)
--  [3. System Features](#3-system-features)
-   -  [3.1 System Interface](#31-system-interface)
-   -  [3.2 User Profile](#32-user-profile)
-   -  [3.3 Language Courses](#33-language-courses)
-   -  [3.4 Personalized Learning](#34-personalized-learning)
-   -  [3.5 Progress Tracking](#35-progress-tracking)
-   -  [3.6 Gamification](#36-gamification)
-   -  [3.7 Social Features](#37-social-features)
-   -  [3.8 Premium Features](#38-premium-features)
-   -  [3.1 Usability Features](#39-usability-features)
--  [4. External Interface Requirements](#4-external-interface-requirements)
-   -  [4.1 User Interfaces](#41-user-interfaces)
-   -  [4.2 Hardware Interfaces](#42-hardware-interfaces)
-   -  [4.3 Software Interfaces](#43-software-interfaces)
-   -  [4.4 Communications Interfaces](#44-communications-interfaces)
--  [5. Non-functional Requirements](#5-non-functional-requirements)
-   -  [5.1 Performance Requirements](#51-performance-requirements)
-   -  [5.2 Safety Requirements](#52-safety-requirements)
-   -  [5.3 Security Requirements](#53-security-requirements)
-   -  [5.4 Software Quality Attributes](#54-software-quality-attributes)
+	- [2.1. Product Perspective:](#21-product-perspective)
+	- [2.2. Product Features:](#22-product-features)
+	- [2.3. User Classes and Characteristics:](#23-user-classes-and-characteristics)
+	- [2.4. Operating Environment:](#24-operating-environment)
+	- [2.5. Design and Implementation Constraints:](#25-design-and-implementation-constraints)
+	- [2.6. User Documentation:](#26-user-documentation)
+	- [2.7. Assumptions and Dependencies:](#27-assumptions-and-dependencies)
+- [3. System Features](#3-system-features)
+	- [3.1 System Interface](#31-system-interface)
+	- [3.2 User Profile](#32-user-profile)
+	- [3.3 Language Courses](#33-language-courses)
+	- [3.4 Personalized Learning](#34-personalized-learning)
+	- [3.5 Progress Tracking](#35-progress-tracking)
+	- [3.6 Gamification](#36-gamification)
+	- [3.7 Social Features](#37-social-features)
+	- [3.8 Premium Features](#38-premium-features)
+	- [3.9 Usability Features](#39-usability-features)
+- [4. External Interface Requirements](#4-external-interface-requirements)
+	- [4.1 User Interfaces](#41-user-interfaces)
+	- [4.2 Hardware Interfaces](#42-hardware-interfaces)
+		- [Smartphones :](#smartphones-)
+		- [iPhone](#iphone)
+		- [Tablets :](#tablets-)
+		- [Laptops :](#laptops-)
+	- [4.3 Software Interfaces](#43-software-interfaces)
+	- [4.4 Communications Interfaces](#44-communications-interfaces)
+- [5. Non-functional Requirements](#5-non-functional-requirements)
+	- [5.1 Performance Requirements:](#51-performance-requirements)
+	- [5.2 Safety Requirements:](#52-safety-requirements)
+	- [5.3 Security Requirements:](#53-security-requirements)
+	- [5.4 Software Quality Attributes:](#54-software-quality-attributes)
 ## 1. Introduction
 ### 1.1 Purpose 
 The purpose of this document is to provide a comprehensive software requirements specification for the Duolingo language learning application. This document will serve as a reference for the development team and stakeholders involved in the project to ensure that the final product meets the requirements and expectations of all parties involved.
 
 There are over 1.2 billion people learning a language and the majority are doing so to gain access to better opportunities. Unfortunately, learning a language is expensive and inaccessible to most. We created Duolingo so that everyone could have a chance. Free language education – no hidden fees, no premium content, just free.
 
-Duolingo is used by the richest man in the world and many Hollywood stars, and at the same time by public schools students in developing countries. We believe true equality is when spending more can't buy you a better education.
+Duolingo can be used by the richest man in the world and at the same time by public schools students in developing countries. We believe true equality is when spending more can't buy you a better education.
 
-### 1.2 Document Conventions 
-Will put all headings here in tabular format.
+With quick, bite-sized lessons, users will be able to earn points and unlock new levels while gaining real-world communication skills. It is a language-learning platform that provides free, gamified lessons for people who want to learn a new language. The purpose of Duolingo is to make language learning accessible to everyone, regardless of their background or financial situation.
 
-### 1.3 Intended Audience and Reading Suggestions 
+Duolingo aims to provide an engaging and effective learning experience that helps learners acquire language skills quickly and efficiently. The platform will use a combination of interactive exercises, quizzes, and games to teach vocabulary, grammar, and pronunciation in a fun and intuitive way.
+
+Duolingo also emphasizes practical communication skills, focusing on real-life scenarios and common phrases that learners can use in everyday conversations.
+
+### 1.2 Intended Audience and Reading Suggestions 
 This document is intended for the development team, project managers, and stakeholders involved in the Duolingo application development. The primary audience of this document is the development team responsible for the design, development, and testing of the application. Other stakeholders, such as investors, marketing team, and end-users, may also find this document useful to understand the application's functionalities and requirements.
 
 To fully understand the application's requirements, it is suggested to read the document in its entirety. However, stakeholders who are only interested in specific sections may refer to the table of contents to navigate the document.
 
-### 1.4 Project Scope 
+### 1.3 Project Scope 
 The project scope includes the design and development of the Duolingo language learning application for iOS and Android platforms. The application will provide language learning courses for various languages, including English, Spanish, French, German, Italian and many more. The application will include features such as gamification, social learning, in-app purchases, and offline learning.
 
-### 1.5 References
+Through mobile application you can **learn anytime, anywhere!**
+You can make your breaks and commutes more productive with our iPhone and Android apps. 
+
+Learners benefit from varied exposure to language. That's why we offer learning experiences like in-person events, interactive stories, and podcasts. These additional formats help learners with interaction, conversation, and reading and listening comprehension — all valuable skills for real-world language practice!
+
+### 1.4 References
+1. https://www.duolingo.com
+2. https://duolingo-papers.s3.amazonaws.com/reports/duolingo-method-whitepaper.pdf
 
 
 ## 2. Overall Description
 ### 2.1. Product Perspective:
 The Duolingo app is an interactive language-learning platform that can be accessed via a web browser or mobile application, developed by Duolingo Inc.  The product is aimed at language learners of all ages and backgrounds, with the help of user-friendly interface including fun and interactive exercises. The focus is to provide guidance and help to all the users of the application to learn a wide variety of languages, by provide different learning materials, daily practice sessions, community help and interactive games to capture the learner’s interest.
+
+
+<img width="1000" alt="Duolingo Method" src="https://d35aaqx5ub95lt.cloudfront.net/images/efficacyPage/duo-method/8fb628861fb283a0250d582cff945e24.svg">
+
 
 ### 2.2. Product Features:
 The Duolingo app is equipped with a wide range of features that cater to the needs of language learners.
@@ -68,23 +86,40 @@ The Duolingo app is equipped with a wide range of features that cater to the nee
 6. Social features that allow users to connect with friends from contact list and compete with them in language learning challenges.
 
 ### 2.3. User Classes and Characteristics:
-The Duolingo app is designed for users of all ages and backgrounds who are interested in learning a new language or improving their language proficiency. We can classify our users into 3 main categories-
+The Duolingo app is designed for users of all ages and backgrounds who are interested in learning a new language or improving their language proficiency. We can classify our users into 3 main categories: 
+
+**Language Experts:**
+These are the users teaching, providing and approving content for the particular language. They have a expertise in their choice of language.
+
+**Language learners**: These are the primary users of Duolingo, who use the platform to learn a new language or improve their existing language skills.
 1. Novice users: Users who are starting a new language with little to no prior knowledge of the language they are learning.
 2. Intermediate users: Users who have some prior knowledge of the language but need to improve their proficiency.
-3. Advanced users: Users who are proficient in the language but want to further refine their skills.
+3. Advanced users: Users who are proficient in the language but want to further refine their skills.and they may have different goals, such as learning a language for personal, academic, or professional purposes.
+
+**Educators**: Duolingo also caters to educators, who use the platform as a teaching tool in classrooms or other educational settings. Educators may use Duolingo to supplement their language teaching or to create custom language courses for their students.
+
+**Language enthusiasts**: Some users may use Duolingo as a hobby or to satisfy their curiosity about different languages and cultures. These users may not have a specific goal in mind but may enjoy learning and exploring new languages.
+
+**Business professionals**: Duolingo is also used by business professionals who want to improve their language skills for professional purposes, such as communicating with clients or partners in different countries.
+
+**Tourists and travelers**: Users who are planning to travel to a foreign country may use Duolingo to learn some basic phrases and vocabulary to help them communicate with the locals.
+
+Overall, Duolingo aims to be accessible and useful to a wide range of users, regardless of their background or motivation for learning a new language.
+
+
 
 ### 2.4. Operating Environment:
 Duolingo is offered via a web browser or as a mobile application and is compatible with a wide range of devices and operating systems. To access the lessons and courses content it requires an active internet connection, although some features are available offline for premium users. The application can be used on devices running on iOS, Android, and Windows operating systems.
 
 ### 2.5. Design and Implementation Constraints:
 Duolingo is a language-learning platform that provides users with a gamified and interactive way to learn new languages. When designing and implementing the Duolingo app, there are several constraints that we the developers need to consider, such as,
-1. User Interface Constraints: The app needs to be designed in a way that is intuitive and easy to use. Having a large database of users who might not be too technically knowledgeable, should be able to navigate the app easily and find the features they need quickly. Due to the large demographics of the users, it is made accessible by people of all ages with the help of easily recognizable icons and navigational features. 
-2. Language Constraints: The application supports be able to support a wide range of languages. Developers need to ensure that the app can handle different language scripts, alphabets, and characters, and the UI can accommodate the different languages on different screens sizes.
-3. Platform Constraints: Duolingo is a mobile app and a web application that runs on both iOS and Android devices and windows operating system. It needs to run smoothly on all platforms and be easily downloadable and available of different systems.
-4. Network Constraints: Duolingo requires an internet connection to function. The application should be optimized enough to work well even in areas with poor or fluctuating connectivity without losing user progress.
-5. Storage Constraints: Duolingo contains a large amount of data, including text, images, and audio files. Developers need to ensure that the app is designed to minimize storage usage on users' devices.
-6. Gamification Constraints: Duolingo relies heavily on gamification of almost all its elements, to engage users and motivate them to continue learning. The app needs to be designed with gamification features that are both fun and effective in encouraging language learning. This should be supported by the devices without causing disturbances or issues in the user interface.
-7. Security Constrains: Duolingo provides social features, it should be able to guarantee the safety of all the users there are many underage users present too. It must be able to protect all the user data and progress for all its users.
+1. **User Interface Constraints**: The app needs to be designed in a way that is intuitive and easy to use. Having a large database of users who might not be too technically knowledgeable, should be able to navigate the app easily and find the features they need quickly. Due to the large demographics of the users, it is made accessible by people of all ages with the help of easily recognizable icons and navigational features. 
+2. **Language Constraints**: The application supports be able to support a wide range of languages. Developers need to ensure that the app can handle different language scripts, alphabets, and characters, and the UI can accommodate the different languages on different screens sizes.
+3. **Platform Constraints**: Duolingo is a mobile app and a web application that runs on both iOS and Android devices and windows operating system. It needs to run smoothly on all platforms and be easily downloadable and available of different systems.
+4. **Network Constraints**: Duolingo requires an internet connection to function. The application should be optimized enough to work well even in areas with poor or fluctuating connectivity without losing user progress.
+5. **Storage Constraints**: Duolingo contains a large amount of data, including text, images, and audio files. Developers need to ensure that the app is designed to minimize storage usage on users' devices.
+6. **Gamification Constraints**: Duolingo relies heavily on gamification of almost all its elements, to engage users and motivate them to continue learning. The app needs to be designed with gamification features that are both fun and effective in encouraging language learning. This should be supported by the devices without causing disturbances or issues in the user interface.
+7. **Security Constrains**: Duolingo provides social features, it should be able to guarantee the safety of all the users there are many underage users present too. It must be able to protect all the user data and progress for all its users.
 
 ### 2.6. User Documentation:
  The Duolingo application provides user documentation in the form of a help centers, user guides, and a community forum. The help center provides answers to frequently asked questions, while the user guides provide step-by-step instructions on how to use the app. The community forum allows users to connect with other language learners, ask questions, and share tips and strategies.
@@ -134,7 +169,7 @@ The Duolingo app should have an intuitive and easy-to-use interface that provide
 The Duolingo app should be compatible with a variety of hardware devices, including smartphones, tablets, and laptops. The app should be optimised for different screen sizes and resolutions, and should make use of the various input mechanisms available on different devices, such as touchscreens, keyboards, and microphones.
 The basic specification a device should have is:
 
-#### smartphones :
+#### Smartphones :
     Processor: any processor
 	RAM: 4GB or above
 
@@ -147,7 +182,7 @@ The basic specification a device should have is:
 	iPod Touch:
 		Requires iOS 14.0 or later
 
-#### laptops :
+#### Laptops :
   Processor: any
   RAM: 512MB or above
   Hard Disk: 40GB or above
