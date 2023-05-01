@@ -75,17 +75,17 @@ Duolingo is not only a web application which can easily be accessed from any bro
 The Duolingo application has the ability to create and manage user accounts. Users can sign up for an account, login, and logout of their account, edit their profile information and send password reset requests. Users can also customize their application settings based on their needs.
 ### 3.3 Language Courses
 The Duolingo application provides a wide range of language courses (more than 30 languages) and learning materials for different levels of learners. Users can select their preferred language courses and access the lessons, exercises, and tests associated with the course. It offers interactive lessons that include reading, writing, listening, and speaking exercises to help users improve their language skills.
-### 3.3 Personalized learning
+### 3.3 Personalized Learning
 This feature of the Duolingo app is the ability to provide a personalized learning experience to users. It uses machine learning algorithms to personalize and adapt to the learning experience based on each user's learning style, pace, preferences, progress, and performance. The app also provides real-time feedback to the user to help them improve their language skills. 
-### 3.4 Progress tracking
+### 3.4 Progress Tracking
 Duolingo allows users to track their progress, including their completed lessons, time spent on the platform, and level of proficiency. It not only tracks user progress but also provide recommendations for further learning based on the user's performance.
 ### 3.5 Gamification
 The Duolingo application provides a gamified learning experience that motivates users to continue learning. Users can earn rewards, badges, and streaks for completing lessons, exercises, and tests. It also provides a leaderboard to encourage friendly competition among users during leagues. This provides for an interesting user interface that captures the users, so that they can enjoy their learning journey.
-### 3.6 Social features
+### 3.6 Social Features
 Duolingo provides a social learning platform that allows users to connect with other learners and native speakers. The social features also allow users to connect with friends, compete against each other, and share their progress on social media. Users can engage in discussions, share language tips, and participate in language exchange programs and different language leagues, while ensuring a safe and secure environment for all users to interact with each other.
 ### 3.7 Premium Features
 Duolingo’s premium users are offered offline access to language lessons, exercises, and tests. Users can download the learning materials to their device and access them even when they are not connected to the internet. It synchronizes users progress when they reconnect to the internet.
-### 3.8 Usability features 
+### 3.8 Usability Features 
 The Duolingo app provides an easy-to-use interface that is intuitive and user-friendly. It provides user with clear and concise instructions, error messages, and feedback to guide the user through the learning process. Users can also reach out to help centers, use user guides, and communicate on the community forum, for any queries and questions. The user feedback option is available in the application to provide honest and helpful reviews to enhance the user satisfaction.
 
 ## 4. External Interface Requirements
@@ -101,17 +101,17 @@ The Duolingo app should be compatible with a variety of hardware devices, includ
 The basic specification a device should have is:
 
 #### smartphones :
-    	Processor: any processor
+    Processor: any processor
 	RAM: 4GB or above
 
 #### iPhone
 	Requires iOS 14.0 or later
 
 #### Tablets : 
-	iPad
-	Requires iPadOS 14.0 or later
-	iPod touch
-	Requires iOS 14.0 or later
+	iPad:
+		Requires iPadOS 14.0 or later
+	iPod Touch:
+		Requires iOS 14.0 or later
 
 #### laptops :
   Processor: any
@@ -120,11 +120,11 @@ The basic specification a device should have is:
   Input Devices: Keyboard, Mouse
   Output Devices: Monitor; -14” VGA
 
-	#### Mac
-	Requires macOS 11.0 or later and a Mac with Apple M1 chip or later
+	Mac:
+		Requires macOS 11.0 or later and a Mac with Apple M1 chip or later
 
-	#### Android
-  android 5.0 or later
+	Android:
+  		Android 5.0 or later
 
 ### 4.3 Software Interfaces 
 
