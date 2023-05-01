@@ -138,18 +138,13 @@ The Duolingo app should be able to communicate with external servers to provide 
 ## Other Non-functional Requirements
 
 ### 5.1 Performance Requirements:
+The Duolingo application provides a reliable and scalable infrastructure that can handle large volumes of users and traffic. The system should also provide high availability, fault tolerance, and disaster recovery capabilities to ensure that the application is always accessible to users and must be optimized for low-bandwidth and high-latency networks. It should be designed in such a way, that even scaling up the application, the performance should not be affected.
 
-The Duolingo app should be designed in a way which have a good performance together with all the features and responsiveness. Application should be able to load faster with low latency. The app should be checked for performance with a large number of users. Design should be in a way so that even if we scale up, performance should not be affected. Also the app should be optimized for low-bandwidth and high-latency networks.
- 
 ### 5.2 Safety Requirements:
-
-The Duolingo app should be designed with safety in mind, with appropriate safeguards to protect user data and prevent unauthorized access. The app should be designed to comply with relevant data privacy and security regulations, such as GDPR and CCPA. Before releasing to each country, we should make sure that app is compliant with the rules and regulations of that country.
+The Duolingo application should be designed with safety as a priority, with appropriate safeguards to protect user data and prevent unauthorized access. The application should be designed to comply with relevant data privacy and security regulations, such as GDPR and CCPA. Before releasing it to a new country, the application should be compliant with the rules and regulations concerned to that country. As the application has a large student community, the content and the materials should be always appropriate for the younger audience.
 
 ### 5.3 Security Requirements:
-
-The Duolingo app should be designed to be highly secure, with access controls to prevent unauthorized access, theft, and other security breaches. The app should use industry-standard encryption protocols to protect user data both in transit and at rest. Security tests should be run regularly to identify potential open vulnerabilities.
+Duolingo should be designed to be highly secure, with access controls to prevent unauthorized access, theft, and other security breaches. The application should use industry-standard encryption protocols to protect user data both in transit and at rest. Security tests should be run regularly to identify potential open vulnerabilities.
 
 ### 5.4 Software Quality Attributes:
-
-The Duolingo app should be designed to be highly reliable and maintainable, with high-quality code that is easy to read, debug, and modify. The app should be designed to be highly scalable and extensible, with the ability to add new features and functionality as needed. Proper DevOps standards should be maintained to ensure minimal downtime and rapid recovery in the event of a failure or outage.
-
+Duolingo should be designed to be highly reliable and maintainable, with high-quality code that is easy to read, debug, and modify. The application should be designed to be highly scalable and extensible, with the ability to add new features and functionality when required. Proper DevOps standards should be maintained to ensure minimal downtime and rapid recovery in the event of a failure or outage.
