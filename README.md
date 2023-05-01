@@ -8,7 +8,7 @@ BITS ID     | Name              | GitHub ID
 2021hs70009 | Sebin Sunny       | iamsebinsunny
 
 
-<img width="1000" alt="Fitbit" src="https://design.duolingo.com/7d3b95abf67001cde6ea.svg">
+<img width="1000" alt="Duolingo" src="https://design.duolingo.com/7d3b95abf67001cde6ea.svg">
 
 
 ![GitHub stars](https://img.shields.io/github/stars/SWENGG4Y2023/SWENGG4Y2023Team07)  ![GitHub forks](https://img.shields.io/github/forks/SWENGG4Y2023/SWENGG4Y2023Team07)  ![GitHub pull requests](https://img.shields.io/github/issues-pr/SWENGG4Y2023/SWENGG4Y2023Team07) ![GitHub contributors](https://img.shields.io/github/contributors/SWENGG4Y2023/SWENGG4Y2023Team07)
