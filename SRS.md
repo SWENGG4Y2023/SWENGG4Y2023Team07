@@ -1,4 +1,39 @@
-## Introduction
+## Table of Contents
+-  [1. Introduction](#1-introduction)
+   - [1.1 Purpose](#11-purpose)
+   - [1.2 Document Conventions](#12-document-conventions)
+   - [1.3 Intended Audience and Reading Suggestions](#13-intended-audience-and-reading-suggestions)
+   - [1.4 Project Scope](#14-project-scope)
+   - [1.5 Scope](#15-references)
+- [2. Overall Description](#2-overall-description)
+   -  [2.1 Product Perspective](#21-product-perspective)
+   -  [2.2 Product Features](#22-product-features)
+   -  [2.3 User Classes and Characteristics](#23-user-classes-and-characteristics)
+   -  [2.4 Operating Environment](#24-operating-environment)
+   -  [2.5 Design and Implementation Constraints](#25-design-and-implementation-constraints)
+   -  [2.6 User Documentation](#26-user-documentation)
+   -  [2.7 Assumptions and Dependencies](#27-assumptions-and-dependencies)
+-  [3. System Features](#3-system-features)
+   -  [3.1 System Interface](#31-system-interface)
+   -  [3.2 User Profile](#32-user-profile)
+   -  [3.3 Language Courses](#33-language-courses)
+   -  [3.4 Personalized Learning](#34-personalized-learning)
+   -  [3.5 Progress Tracking](#35-progress-tracking)
+   -  [3.6 Gamification](#36-gamification)
+   -  [3.7 Social Features](#37-social-features)
+   -  [3.8 Premium Features](#38-premium-features)
+   -  [3.1 Usability Features](#39-usability-features)
+-  [4. External Interface Requirements](#4-external-interface-requirements)
+   -  [4.1 User Interfaces](#41-user-interfaces)
+   -  [4.2 Hardware Interfaces](#42-hardware-interfaces)
+   -  [4.3 Software Interfaces](#43-software-interfaces)
+   -  [4.4 Communications Interfaces](#44-communications-interfaces)
+-  [5. Non-functional Requirements](#5-non-functional-requirements)
+   -  [5.1 Performance Requirements](#51-performance-requirements)
+   -  [5.2 Safety Requirements](#52-safety-requirements)
+   -  [5.3 Security Requirements](#53-security-requirements)
+   -  [5.4 Software Quality Attributes](#54-software-quality-attributes)
+## 1. Introduction
 ### 1.1 Purpose 
 The purpose of this document is to provide a comprehensive software requirements specification for the Duolingo language learning application. This document will serve as a reference for the development team and stakeholders involved in the project to ensure that the final product meets the requirements and expectations of all parties involved.
 
@@ -20,7 +55,7 @@ The project scope includes the design and development of the Duolingo language l
 ### 1.5 References
 
 
-## Overall Description
+## 2. Overall Description
 ### 2.1. Product Perspective:
 The Duolingo app is an interactive language-learning platform that can be accessed via a web browser or mobile application, developed by Duolingo Inc.  The product is aimed at language learners of all ages and backgrounds, with the help of user-friendly interface including fun and interactive exercises. The focus is to provide guidance and help to all the users of the application to learn a wide variety of languages, by provide different learning materials, daily practice sessions, community help and interactive games to capture the learner’s interest.
 
@@ -68,28 +103,27 @@ Duolingo application has the following dependencies:
 4. Server infrastructure: Duolingo depends on a robust server infrastructure to handle user data, maintain user progress, an
 
 
-## System Features ##
+## 3. System Features
 ### 3.1 System Interface
 Duolingo is not only a web application which can easily be accessed from any browser on any available system with an active internet connection but also a mobile application which is available for both android and IOS systems. Users can seamlessly access the application from their smartphones, tablets, or any computer.
 ### 3.2 User Profile
 The Duolingo application has the ability to create and manage user accounts. Users can sign up for an account, login, and logout of their account, edit their profile information and send password reset requests. Users can also customize their application settings based on their needs.
 ### 3.3 Language Courses
 The Duolingo application provides a wide range of language courses (more than 30 languages) and learning materials for different levels of learners. Users can select their preferred language courses and access the lessons, exercises, and tests associated with the course. It offers interactive lessons that include reading, writing, listening, and speaking exercises to help users improve their language skills.
-### 3.3 Personalized Learning
+### 3.4 Personalized Learning
 This feature of the Duolingo app is the ability to provide a personalized learning experience to users. It uses machine learning algorithms to personalize and adapt to the learning experience based on each user's learning style, pace, preferences, progress, and performance. The app also provides real-time feedback to the user to help them improve their language skills. 
-### 3.4 Progress Tracking
+### 3.5 Progress Tracking
 Duolingo allows users to track their progress, including their completed lessons, time spent on the platform, and level of proficiency. It not only tracks user progress but also provide recommendations for further learning based on the user's performance.
-### 3.5 Gamification
+### 3.6 Gamification
 The Duolingo application provides a gamified learning experience that motivates users to continue learning. Users can earn rewards, badges, and streaks for completing lessons, exercises, and tests. It also provides a leaderboard to encourage friendly competition among users during leagues. This provides for an interesting user interface that captures the users, so that they can enjoy their learning journey.
-### 3.6 Social Features
+### 3.7 Social Features
 Duolingo provides a social learning platform that allows users to connect with other learners and native speakers. The social features also allow users to connect with friends, compete against each other, and share their progress on social media. Users can engage in discussions, share language tips, and participate in language exchange programs and different language leagues, while ensuring a safe and secure environment for all users to interact with each other.
-### 3.7 Premium Features
+### 3.8 Premium Features
 Duolingo’s premium users are offered offline access to language lessons, exercises, and tests. Users can download the learning materials to their device and access them even when they are not connected to the internet. It synchronizes users progress when they reconnect to the internet.
-### 3.8 Usability Features 
+### 3.9 Usability Features 
 The Duolingo app provides an easy-to-use interface that is intuitive and user-friendly. It provides user with clear and concise instructions, error messages, and feedback to guide the user through the learning process. Users can also reach out to help centers, use user guides, and communicate on the community forum, for any queries and questions. The user feedback option is available in the application to provide honest and helpful reviews to enhance the user satisfaction.
 
 ## 4. External Interface Requirements
-
 ### 4.1 User Interfaces 
 
 The Duolingo app should have an intuitive and easy-to-use interface that provides a seamless user experience. The app must be designed to be user-friendly and accessible for users of all ages, languages, and backgrounds. Having a gamification approach to education, attempting to make study and practice more engaging that a Candy Crush game will be the way to go. The app should have a clear and concise interface with intuitive navigation, easy-to-read text, and appropriate colours, graphics, and sound effects. Usage of iconography would can attract more users and the existing users to keep using the application.
@@ -135,7 +169,7 @@ The Duolingo app should be designed to integrate with other software systems, su
 
 The Duolingo app should be able to communicate with external servers to provide online features, such as cloud-based storage, synchronisation across multiple devices, and social networking. The app should also be able to communicate with external APIs to provide additional functionality, such as speech recognition. The app should be able to connect to internet for accessing user data, sending data to Duolingo servers via a secure and reliable connection.
 
-## Other Non-functional Requirements
+## 5. Non-functional Requirements
 
 ### 5.1 Performance Requirements:
 The Duolingo application provides a reliable and scalable infrastructure that can handle large volumes of users and traffic. The system should also provide high availability, fault tolerance, and disaster recovery capabilities to ensure that the application is always accessible to users and must be optimized for low-bandwidth and high-latency networks. It should be designed in such a way, that even scaling up the application, the performance should not be affected.
