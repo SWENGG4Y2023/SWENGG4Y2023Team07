@@ -150,12 +150,10 @@ Duolingo should be designed to be highly secure, with access controls to prevent
 Duolingo should be designed to be highly reliable and maintainable, with high-quality code that is easy to read, debug, and modify. The application should be designed to be highly scalable and extensible, with the ability to add new features and functionality when required. Proper DevOps standards should be maintained to ensure minimal downtime and rapid recovery in the event of a failure or outage.
 
 ### 5.5 Maintainability Requirements:
-Code should be well structured with clear and consistent naming conventions which should be architecture in  such a  way  that it ensures ability to easily add, remove, or modify functionality. Process should established for version control, code reviews, and testing to ensure that changes do not break existing functionality. Documentation should be completed with in-depth details.
-
+Code should be well structured with clear and consistent naming conventions. Architecture should be done in  such a  way  that it ensures ability to easily add, remove, or modify functionality. Process should established for version control, code reviews and testing. Testing should be done to ensure that changes do not break existing functionality. Documentation should be completed with in-depth details with ensures maintainability.
 
 ### 5.6 Reliability Requirements:
-Duolingo app should be designed with fault tolerance and error handling in mind with the ability to recover from unexpected errors or crashes. Also it should be able to handle high levels of traffic and usage and handle data securely and without data loss.
+Duolingo app should be designed with fault tolerance and error handling in mind. Architectural design should be done which provides ability to recover from unexpected errors or crashes. App should be able to handle high levels of traffic and usage. From data perspective it should ensure it handles data securely and without data loss.
 
 ### 5.7 Interoperability Requirements:
 Duolingo app should be designed to be compatible with other systems and software and operate in a variety of environments and platforms. It should be able to exchange data with other systems in a reliable and secure manner while adhering to relevant standards and protocols. Also should be able to integrate with other systems through APIs or other methods.
-
