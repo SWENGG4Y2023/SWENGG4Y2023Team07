@@ -240,3 +240,56 @@ Test Plan
     Align milestones with the overall project timeline and development milestones to ensure synchronization between testing and development activities.
     Establish checkpoints for stakeholder reviews and feedback to ensure transparency and gather insights for making informed decisions.
     Celebrate the successful completion of significant milestones as a way to recognize the effort and progress of the testing team and boost morale.
+
+1.4 Test Resources
+  - Test environment:
+    A dedicated test environment will be set up to simulate real-world usage scenarios of the Duolingo app. This includes various devices (smartphones, tablets) and operating systems (iOS, Android) to ensure comprehensive coverage.
+  - Network infrastructure:
+    The test environment will have a network infrastructure that simulates different network conditions, such as low bandwidth, high latency, and intermittent connectivity, to test the app's performance and responsiveness under varying network conditions.
+  - Test devices:
+    A range of devices with different screen sizes, resolutions, and hardware specifications will be available for testing to ensure compatibility and usability across various device configurations.
+  - Test accounts:
+    A set of test accounts will be created with different user roles and language preferences to cover a wide range of user scenarios during testing.
+  - Test documentation:
+    Adequate documentation, including test plans, test cases, test scripts, and defect tracking reports, will be prepared to ensure efficient and effective testing processes.
+
+- Hardware Requirements
+  - Mobile devices:
+    The Duolingo app will be tested on a variety of popular mobile devices, including smartphones and tablets, with different operating systems and hardware specifications.
+  - Minimum specifications:
+    The hardware requirements for testing will be defined, including minimum device capabilities such as processor speed, RAM, storage capacity, and display resolution, to ensure the app performs optimally on supported devices.
+  - Device compatibility:
+    The app will be tested on different hardware configurations to ensure compatibility across a wide range of devices, including older and newer models.
+
+- Software Requirements
+  - Operating systems:
+    The Duolingo app will be tested on the supported operating systems, including the latest versions of iOS and Android, to ensure compatibility and functionality.
+  - Software dependencies:
+    The software dependencies required for the Duolingo app, such as specific versions of runtime libraries, frameworks, or third-party components, will be identified and documented to ensure a consistent and stable testing environment.
+  - Software versions:
+    The test environment will have the required software versions installed to support the testing of the Duolingo app, including development tools, compilers, emulators, and debugging utilities.
+  - Browser compatibility:
+    If the Duolingo app has a web-based component, compatibility with different web browsers and versions will be considered during testing to ensure a seamless user experience across various platforms.
+
+- Test Data
+  - Language courses:
+    Test data will include a variety of language courses offered by Duolingo, covering different levels of difficulty and language combinations to verify the app's functionality and accuracy in teaching and learning.
+cUser profiles: Test data will include various user profiles with different skill levels, learning preferences, and progress levels to ensure that the app's features, such as personalized recommendations and progress tracking, work as intended.
+    Lesson exercises: A set of test data will be created to cover different lesson exercises, including vocabulary drills, listening exercises, reading comprehension, and grammar exercises, to validate the app's content and exercise generation algorithms.
+    Progress data: Test data will include user progress data at different stages, including completed lessons, achieved skills, and learning streaks, to verify the app's ability to accurately track and reflect user progress.
+    Error scenarios: Test data will cover error scenarios, such as invalid inputs, network failures, or server errors, to validate the app's error handling and recovery mechanisms.
+
+- Test Tools
+    Test management tools: Test management software, such as JIRA or TestRail, will be used to manage test cases, track defects, and generate test reports, ensuring efficient test planning, execution, and reporting.
+    Automation tools: Automated testing tools, such as Appium or Espresso, will be used to automate repetitive test cases, perform regression testing, and ensure consistency and accuracy in test execution.
+    Performance testing tools: Tools like JMeter or Gatling will be used to simulate load, stress, and performance testing scenarios to evaluate the app's performance under different user loads and identify potential bottlenecks.
+    Device emulators/simulators: Emulators or simulators will be utilized to test the app on different device configurations without the need for physical devices, enabling broader coverage and reducing testing costs.
+    Network monitoring tools: Tools like Charles Proxy or Wireshark will be used to monitor network traffic during testing to analyze communication between the app and backend systems, identify potential issues, and optimize network performance.
+
+- Personnel
+    Test Manager: The test manager will be responsible for overseeing the entire testing process, including test planning, resource allocation, coordination with other teams, and ensuring that testing objectives are met.
+    Test Leads: Test leads will assist the test manager in planning and executing test activities, managing test resources, monitoring progress, and reporting test status to the test manager.
+    Test Analysts: Test analysts will be responsible for analyzing requirements, designing test cases, preparing test data, executing tests, and documenting test results. They will also assist in defect tracking and analysis.
+    Testers: Testers will execute test cases, log defects, and provide feedback on the app's functionality, usability, and performance. They will work closely with test leads and analysts to ensure thorough testing coverage.
+    Developers: Developers will collaborate with the testing team by providing necessary builds, bug fixes, clarifications on functionality, and assisting in defect resolution to ensure a smooth and efficient testing process.
+    Stakeholders: Stakeholders, including project managers, product owners, and customer representatives, will be involved in the testing process to provide inputs, review test deliverables, and make informed decisions based on the test results.
