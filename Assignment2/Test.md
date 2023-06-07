@@ -274,22 +274,37 @@ Test Plan
 - Test Data
   - Language courses:
     Test data will include a variety of language courses offered by Duolingo, covering different levels of difficulty and language combinations to verify the app's functionality and accuracy in teaching and learning.
-cUser profiles: Test data will include various user profiles with different skill levels, learning preferences, and progress levels to ensure that the app's features, such as personalized recommendations and progress tracking, work as intended.
-    Lesson exercises: A set of test data will be created to cover different lesson exercises, including vocabulary drills, listening exercises, reading comprehension, and grammar exercises, to validate the app's content and exercise generation algorithms.
-    Progress data: Test data will include user progress data at different stages, including completed lessons, achieved skills, and learning streaks, to verify the app's ability to accurately track and reflect user progress.
-    Error scenarios: Test data will cover error scenarios, such as invalid inputs, network failures, or server errors, to validate the app's error handling and recovery mechanisms.
+  - User profiles:
+    Test data will include various user profiles with different skill levels, learning preferences, and progress levels to ensure that the app's features, such as personalized recommendations and progress tracking, work as intended.
+  - Lesson exercises:
+    A set of test data will be created to cover different lesson exercises, including vocabulary drills, listening exercises, reading comprehension, and grammar exercises, to validate the app's content and exercise generation algorithms.
+  - Progress data:
+    Test data will include user progress data at different stages, including completed lessons, achieved skills, and learning streaks, to verify the app's ability to accurately track and reflect user progress.
+  - Error scenarios:
+    Test data will cover error scenarios, such as invalid inputs, network failures, or server errors, to validate the app's error handling and recovery mechanisms.
 
 - Test Tools
-    Test management tools: Test management software, such as JIRA or TestRail, will be used to manage test cases, track defects, and generate test reports, ensuring efficient test planning, execution, and reporting.
-    Automation tools: Automated testing tools, such as Appium or Espresso, will be used to automate repetitive test cases, perform regression testing, and ensure consistency and accuracy in test execution.
-    Performance testing tools: Tools like JMeter or Gatling will be used to simulate load, stress, and performance testing scenarios to evaluate the app's performance under different user loads and identify potential bottlenecks.
-    Device emulators/simulators: Emulators or simulators will be utilized to test the app on different device configurations without the need for physical devices, enabling broader coverage and reducing testing costs.
-    Network monitoring tools: Tools like Charles Proxy or Wireshark will be used to monitor network traffic during testing to analyze communication between the app and backend systems, identify potential issues, and optimize network performance.
+  - Test management tools:
+    Test management software, such as JIRA or TestRail, will be used to manage test cases, track defects, and generate test reports, ensuring efficient test planning, execution, and reporting.
+  - Automation tools:
+    Automated testing tools, such as Appium or Espresso, will be used to automate repetitive test cases, perform regression testing, and ensure consistency and accuracy in test execution.
+  - Performance testing tools:
+    Tools like JMeter or Gatling will be used to simulate load, stress, and performance testing scenarios to evaluate the app's performance under different user loads and identify potential bottlenecks.
+  - Device emulators/simulators:
+    Emulators or simulators will be utilized to test the app on different device configurations without the need for physical devices, enabling broader coverage and reducing testing costs.
+  - Network monitoring tools:
+    Tools like Charles Proxy or Wireshark will be used to monitor network traffic during testing to analyze communication between the app and backend systems, identify potential issues, and optimize network performance.
 
 - Personnel
-    Test Manager: The test manager will be responsible for overseeing the entire testing process, including test planning, resource allocation, coordination with other teams, and ensuring that testing objectives are met.
-    Test Leads: Test leads will assist the test manager in planning and executing test activities, managing test resources, monitoring progress, and reporting test status to the test manager.
-    Test Analysts: Test analysts will be responsible for analyzing requirements, designing test cases, preparing test data, executing tests, and documenting test results. They will also assist in defect tracking and analysis.
-    Testers: Testers will execute test cases, log defects, and provide feedback on the app's functionality, usability, and performance. They will work closely with test leads and analysts to ensure thorough testing coverage.
-    Developers: Developers will collaborate with the testing team by providing necessary builds, bug fixes, clarifications on functionality, and assisting in defect resolution to ensure a smooth and efficient testing process.
-    Stakeholders: Stakeholders, including project managers, product owners, and customer representatives, will be involved in the testing process to provide inputs, review test deliverables, and make informed decisions based on the test results.
+  - Test Manager:
+    The test manager will be responsible for overseeing the entire testing process, including test planning, resource allocation, coordination with other teams, and ensuring that testing objectives are met.
+  - Test Leads:
+    Test leads will assist the test manager in planning and executing test activities, managing test resources, monitoring progress, and reporting test status to the test manager.
+  - Test Analysts:
+    Test analysts will be responsible for analyzing requirements, designing test cases, preparing test data, executing tests, and documenting test results. They will also assist in defect tracking and analysis.
+  - Testers:
+    Testers will execute test cases, log defects, and provide feedback on the app's functionality, usability, and performance. They will work closely with test leads and analysts to ensure thorough testing coverage.
+  - Developers:
+    Developers will collaborate with the testing team by providing necessary builds, bug fixes, clarifications on functionality, and assisting in defect resolution to ensure a smooth and efficient testing process.
+  - Stakeholders:
+    Stakeholders, including project managers, product owners, and customer representatives, will be involved in the testing process to provide inputs, review test deliverables, and make informed decisions based on the test results.
