@@ -423,3 +423,110 @@ Test Plan
     The required documentation to support the approval process, such as review comments, sign-off forms, and meeting minutes, will be prepared and maintained.
   - Communication:
     The process for communicating the approved test plan to all relevant stakeholders, including the testing team, development team, and project management, will be established to ensure a shared understanding and commitment to the plan.
+
+2. Test Design Specification
+- Test Objective:
+    Validate the functionality and usability of the Duolingo app to ensure it meets user expectations and requirements.
+    Identify and report defects or issues that may affect the app's performance, stability, or user experience.
+    Ensure compatibility of the app across different platforms (iOS and Android) and devices.
+    Assess the app's performance, responsiveness, and scalability under various usage scenarios.
+    Verify the security features and data integrity of the app to protect user information.
+
+- Test Items:
+    The Duolingo mobile application, including its frontend interface, backend systems, and any related APIs or integrations.
+    User authentication and registration functionalities.
+    Language learning exercises, progress tracking, skill assessments, and user profiles.
+    In-app purchases, payment processing, and subscription management features.
+    Social features such as user interactions, leaderboards, and community forums.
+
+- Features to be Tested:
+    Registration and login process, including account creation and password reset functionality.
+    Language course selection and progression tracking.
+    Lesson exercises, quizzes, and skill assessments.
+    Offline mode functionality for accessing lessons without an internet connection.
+    In-app purchases, including subscription plans, pricing, and payment processing.
+
+- Test Techniques:
+    Functional testing to ensure each feature works as intended and meets specified requirements.
+    Usability testing to evaluate the app's user interface, navigation, and overall user experience.
+    Compatibility testing to verify that the app functions correctly on different devices, operating systems, and screen resolutions.
+    Performance testing to assess the app's responsiveness, load times, and resource utilization under various conditions.
+    Security testing to identify vulnerabilities and ensure data protection measures are in place.
+
+- Test Coverage:
+    User scenarios and workflows covering different aspects of the app, such as lesson completion, progress tracking, and social interactions.
+    Multiple language courses and levels to assess the app's language learning capabilities.
+    Various devices and operating system combinations to ensure compatibility across a wide range of user configurations.
+    Edge cases and boundary conditions to test the app's robustness and error handling capabilities.
+    Performance testing across different network conditions and user load scenarios.
+
+- Test Environment Requirements:
+    Devices: iOS and Android smartphones and tablets.
+    Operating Systems: Latest versions of iOS and Android, with backward compatibility to previous versions if specified.
+    Network: Access to both stable internet connections and simulated offline environments.
+    Emulators or physical devices for testing across different screen resolutions and device capabilities.
+
+- Test Data Requirements:
+    Sample user accounts for testing registration, login, and profile management functionalities.
+    Language-specific data sets for language course exercises and assessments.
+    Test data covering various scenarios such as incomplete exercises, incorrect answers, and user progress milestones.
+    Test data reflecting different subscription levels and in-app purchase scenarios.
+
+- Test Cases:
+    Detailed test cases covering each specific feature, functionality, and scenario to be tested.
+    Test cases should include input data, expected results, and steps to reproduce each test scenario.
+    Test cases should cover both positive and negative test scenarios to ensure comprehensive coverage.
+    Test cases should be organized and categorized based on feature areas and test objectives.
+    Test cases should be regularly reviewed, updated, and expanded as new features are introduced or requirements change.
+
+- Test Procedure:
+    Clear instructions and steps for executing each test case, including any prerequisite steps or setup requirements.
+    Guidelines for recording test results, including any deviations from expected outcomes and any defects discovered.
+    Procedures for documenting and reporting any issues or defects encountered during testing.
+    Guidelines for retesting and regression testing after defects have been fixed.
+    Instructions for escalating critical defects or issues that may impact the app's functionality or release timeline.
+
+3. Test Case Specification
+- Test Case Identifier:
+    The identifier should follow a consistent naming convention for easy identification and traceability across test cases.
+    It may include additional information such as the test case owner or the date it was created.
+
+- Test Case Description:
+    The description should provide a clear understanding of the objective, functionality, or scenario being tested.
+    It should be concise and avoid unnecessary technical details.
+    It may include references to related requirements or user stories.
+
+- Test Procedure:
+    Each step in the test procedure should be clear, unambiguous, and easy to follow.
+    It should include any specific settings or configurations required to perform the test.
+    Screenshots or diagrams can be included to provide visual guidance if necessary.
+
+- Test Inputs:
+    Test inputs should cover a range of valid and invalid values to ensure thorough testing.
+    It should include both positive and negative test cases to validate the system's behavior in different scenarios.
+    If applicable, it should specify any required test data or test setup needed for the test case.
+
+- Expected Results:
+    The expected results should be specific, measurable, and observable.
+    It should clearly describe the expected behavior or outcome of the test case.
+    It can include expected values, system responses, error messages, or any other observable actions.
+
+- Test Execution Status:
+    The status field should be updated during the execution of the test case to reflect its current state (e.g., Not Run, Pass, Fail, Blocked, or In Progress).
+    It helps in tracking the progress of the test case execution and identifying any issues or blockers.
+
+- Test Priority:
+    The priority should be assigned based on the criticality and business impact of the functionality being tested.
+    It helps in prioritizing the execution order of test cases, especially in situations where time or resources are limited.
+
+- Test Environment Requirements:
+    The test environment requirements should include details about the specific hardware, software, network configurations, or dependencies needed to execute the test case successfully.
+    It helps ensure that the test environment is properly set up to mimic the production environment.
+
+- Test Dependencies:
+    Test dependencies should identify any prerequisites or conditions that must be met before executing the test case.
+    It can include dependencies on specific test data, previous test case results, or specific system states.
+    It helps in ensuring that the test case is executed in the correct sequence and in the appropriate context.
+
+
+
