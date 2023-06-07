@@ -569,3 +569,57 @@ Test Plan
     Document any dependencies on external systems or services that need to be available and properly configured for the test procedure to be executed successfully. This includes any integrations with payment gateways, social media platforms, or analytics tools.
   - Test Case Dependencies:
     Identify any dependencies on other test cases or test procedures that need to be executed prior to or in conjunction with the current test procedure. This ensures the correct order and sequence of test execution.
+
+5. Test Incident Report
+- Incident Identifier:
+    The incident identifier should follow a standardized format, such as "INC-<number>", where the number increments for each new incident reported.
+    It should be unique to each incident and used as a reference throughout the incident management process.
+    The identifier should be easily identifiable and associated with the specific module, functionality, or area of the Duolingo app affected by the incident.
+    It should be easily searchable and sortable within the incident tracking system or database.
+
+- Incident Description:
+    The incident description should provide a clear and concise summary of the issue encountered during testing or usage of the Duolingo app.
+    It should include specific details such as the environment, device, operating system, browser (if applicable), and any relevant configurations or settings.
+    The description should contain step-by-step instructions to reproduce the incident, including the exact inputs, actions, and conditions required to trigger the issue.
+    It should also mention any error messages, warnings, or unexpected behaviors observed during the incident.
+
+- Test Case Identifier:
+    The test case identifier should be structured to include the module, functionality, or feature being tested, along with a unique identifier.
+    It should follow a consistent naming convention, such as "TC-<number>", where the number increments for each new test case.
+    The identifier should be descriptive enough to identify the purpose and objective of the test case.
+    It helps in mapping the incident back to the specific test case that discovered it, aiding in traceability and impact analysis.
+
+- Test Procedure Identifier:
+    The test procedure identifier should be a combination of the test case identifier and a sequential number or code to distinguish multiple procedures for the same test case.
+    It should clearly indicate the steps or actions to be performed during the test, including any preconditions or setup required.
+    The identifier should follow a consistent format, such as "TP-<test case identifier>-<number>", for easy reference and tracking.
+    It helps in associating the incident with the specific test procedure executed, aiding in analysis and resolution.
+
+- Incident Severity:
+    The incident severity should be categorized based on predefined criteria, such as low, medium, high, or critical, to indicate the impact of the incident on the functionality or user experience.
+    The severity level should consider factors such as the frequency of occurrence, the extent of functionality affected, and the potential business impact.
+    It helps in prioritizing the resolution of incidents and allocating appropriate resources based on their severity.
+    The severity level should be defined in the context of the Duolingo app and align with the project's severity rating guidelines.
+
+- Incident Priority:
+    The incident priority determines the order in which the incident needs to be addressed and resolved, considering factors such as severity, business impact, and urgency.
+    It helps in allocating resources effectively and ensures that critical issues are resolved in a timely manner.
+    The priority levels may include categories like low, medium, high, or urgent, based on the project's priority rating guidelines.
+    The priority should be assigned by considering the potential impact on users, system stability, and project goals.
+
+- Incident Status:
+    The incident status provides information on the current stage or state of the incident in the resolution process.
+    Common status values include "New," "Assigned," "In Progress," "Pending Review," "Resolved," "Closed," or "Reopened."
+    The status helps in tracking the progress of each incident, assigning ownership, and ensuring proper communication and collaboration among team members.
+    It should be regularly updated as the incident moves through different stages, providing visibility and transparency to stakeholders.
+
+- Incident Resolution:
+    The incident resolution describes the actions taken to address and resolve the reported issue.
+    It should include a detailed explanation of the fix or workaround implemented, including any code changes, configuration updates, or other modifications made.
+    The resolution should mention any relevant references, such as code commits, build numbers, or patches applied.
+    It helps in documenting the steps taken to resolve the incident and provides a reference for future analysis or similar issues.
+
+- Incident Closure Date:
+    The incident closure date marks the date when the incident was considered resolved and closed.
+    It helps in tracking the time taken to address and resolve incidents, enabling performance analysis and process improvement.
+    The closure date provides a reference for reporting purposes and indicates the point at which the incident is considered no longer impacting the app's functionality.
