@@ -20,11 +20,11 @@ Test Documentation for Duolingo App
     - Entry and Exit Criteria
     - Suspension and Resumption Criteria
     - Test Deliverables
-- -  Test Schedule
+- - Test Schedule
     - Planned Test Activities
     - Test Dependencies
     - Milestones
-- -  Test Resources
+- - Test Resources
     - Hardware Requirements
     - Software Requirements
     - Test Data
@@ -36,7 +36,7 @@ Test Documentation for Duolingo App
     - Test Data
     - Test Logs
     - Test Reports
-- -  Test Execution
+- - Test Execution
     - Test Procedure
     - Test Environment Setup
     - Test Execution Schedule
