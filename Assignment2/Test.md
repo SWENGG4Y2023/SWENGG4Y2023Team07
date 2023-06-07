@@ -213,3 +213,30 @@ Test Plan
   - Test Logs: Detailed records of executed tests, including test execution results, issues encountered, and relevant information for   analysis.
   - Defect Reports: Documented defects with clear descriptions, steps to reproduce, and severity/priority classifications.
   - Test Summary Reports: Summarized reports capturing the overall testing progress, test coverage, and key findings and recommendations for stakeholders' review.
+
+1.3 Test Schedule:
+    Define specific dates and timelines for each testing phase, such as test planning, test preparation, test execution, and test closure.
+    Allocate sufficient time for each testing activity, considering the complexity of features, number of test cases, and available resources.
+    Incorporate buffer time to accommodate unforeseen delays, issues, or additional testing requirements that may arise during the testing process.
+    Coordinate with the development team to align the test schedule with their release milestones and ensure timely availability of builds for testing.
+    Regularly review and update the test schedule to reflect any changes in project timelines or priorities.
+- Planned Test Activities:
+    Prepare test scripts, test cases, and test data based on the identified scope and objectives.
+    Conduct functional testing to verify the correctness and completeness of features, including user interface testing, navigation, and interaction with language courses.
+    Perform non-functional testing activities, such as usability testing, performance testing, security testing, and compatibility testing on different devices and operating systems.
+    Execute regression testing to ensure that new features or changes have not introduced any unexpected issues or regressions.
+    Collaborate with the development team to facilitate integration testing and address any dependencies or interactions with external systems.
+
+- Test Dependencies:
+    Identify dependencies on the availability of specific build versions, API integrations, or backend systems required for testing.
+    Coordinate with the development team to ensure that the necessary components, features, or configurations are available for testing as per the defined schedule.
+    Document dependencies on external factors, such as third-party services, network connectivity, or user data, which may impact the test execution.
+    Address any dependencies related to test environments, including device availability, simulators/emulators, and access to test accounts.
+    Communicate and resolve any delays or conflicts arising from dependencies to minimize disruption to the test schedule.
+
+- Milestones:
+    Define key milestones in the testing process, such as the completion of test planning, test case preparation, test execution, and defect management.
+    Set milestone criteria to evaluate the progress and readiness of the testing activities, such as the number of test cases executed, test coverage achieved, and defect closure rate.
+    Align milestones with the overall project timeline and development milestones to ensure synchronization between testing and development activities.
+    Establish checkpoints for stakeholder reviews and feedback to ensure transparency and gather insights for making informed decisions.
+    Celebrate the successful completion of significant milestones as a way to recognize the effort and progress of the testing team and boost morale.
