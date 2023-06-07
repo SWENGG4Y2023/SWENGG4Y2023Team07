@@ -308,3 +308,39 @@ Test Plan
     Developers will collaborate with the testing team by providing necessary builds, bug fixes, clarifications on functionality, and assisting in defect resolution to ensure a smooth and efficient testing process.
   - Stakeholders:
     Stakeholders, including project managers, product owners, and customer representatives, will be involved in the testing process to provide inputs, review test deliverables, and make informed decisions based on the test results.
+
+1.5 Test Deliverables
+- Test Scripts:
+    Each test script will outline a specific test scenario or use case, providing a clear sequence of steps to execute and the expected outcomes.
+    Test scripts will be written in a clear and concise manner, ensuring that they are easily understandable by testers and other stakeholders.
+    Test scripts will include any necessary preconditions, such as setting up the app with specific user profiles or configuring certain language courses.
+    Test scripts will cover a range of test scenarios, including positive and negative cases, boundary values, and performance or stress testing.
+    Test scripts will be reviewed and updated regularly to align with any changes in the app's functionality or requirements.
+
+- Test Cases:
+    Test cases will be created based on specific functional requirements, ensuring that all critical and high-priority features are adequately covered.
+    Each test case will have a unique identifier, clear description, and expected outcome, allowing for easy traceability and reporting.
+    Test cases will include necessary preconditions, such as user authentication or specific app configurations, to ensure accurate and consistent test results.
+    Test cases will cover both positive and negative scenarios, verifying the expected behavior of the Duolingo app under various conditions.
+    Test cases will be organized in a logical and structured manner, making it easier for testers to execute and track their progress.
+
+- Test Data:
+    Test data will be carefully selected to cover a wide range of scenarios, including different language courses, user profiles, progress levels, and system configurations.
+    Test data will be designed to validate specific features or functionalities of the Duolingo app, ensuring comprehensive coverage.
+    Test data will include both valid and invalid inputs to test the app's robustness and error handling capabilities.
+    Test data will be properly managed and version controlled to ensure consistency and reproducibility during the testing process.
+    Test data will be regularly updated and refreshed to reflect any changes or updates to the app's functionality or content.
+
+- Test Logs:
+    Test logs will be maintained for each test execution, capturing detailed information about the executed tests, including test case IDs, timestamps, and test results.
+    Test logs will include any issues or defects encountered during testing, including steps to reproduce, observed behaviors, and severity classifications.
+    Test logs will provide a chronological record of the testing activities, enabling easy tracking of progress and identification of trends or patterns.
+    Test logs will be used for debugging purposes, allowing developers to reproduce reported issues and investigate potential causes.
+    Test logs will be reviewed periodically to identify areas of improvement, common patterns of failure, or potential risks in the app's functionality.
+
+- Test Reports:
+    Test reports will summarize the overall test execution results, providing metrics and insights into the quality and reliability of the Duolingo app.
+    Test reports will include key statistics, such as pass/fail rates, defect density, test coverage, and test effort expended.
+    Test reports will highlight any critical or high-priority defects found during testing, emphasizing their potential impact on the user experience or app functionality.
+    Test reports will provide recommendations for further testing or areas of improvement, helping to guide future testing efforts and development iterations.
+    Test reports will be communicated to relevant stakeholders, including project managers, developers, and business owners, to ensure transparency and facilitate informed decision-making.
