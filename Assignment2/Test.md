@@ -155,3 +155,61 @@ Test Plan
   - Change Management:
     The test plan acknowledges that changes in project scope, requirements, or timelines may impact the testing process.
     A change management process is defined to assess the impact of changes, update the test plan and associated deliverables, and ensure that testing activities align with any modifications in the project.
+
+1.2 Test Strategy
+- Test Levels
+  - Unit Testing:
+    Unit testing will focus on testing individual components, such as modules, functions, or classes, to    verify their correctness and adherence to specifications.
+  - Integration Testing:
+    Integration testing will verify the interaction and integration of various components/modules to ensure that they function together correctly.
+  - System Testing:
+    System testing will validate the complete system by testing its functionality, performance, usability, security, and compatibility in a simulated or real environment.
+  - Acceptance Testing:
+    Acceptance testing will involve testing the Duolingo app with end-users to ensure it meets their requirements and expectations.
+
+- Test Types
+  - Functional Testing:
+    Functional testing will ensure that all functional requirements of the Duolingo app are working as intended, including features like registration, language course selection, lesson exercises, progress tracking, and user profile management.
+  - Regression Testing:
+    Regression testing will be performed to ensure that new changes or bug fixes do not introduce new defects or impact existing functionalities.
+  - Performance Testing:
+    Performance testing will evaluate the response time, scalability, and resource usage of the app under different load conditions to ensure optimal performance.
+  - Usability Testing:
+    Usability testing will involve assessing the ease of use, intuitiveness, and user-friendliness of the Duolingo app, ensuring a smooth and engaging user experience.
+  - Security Testing:
+    Security testing will verify the app's resistance to unauthorized access, data breaches, and vulnerabilities, ensuring the protection of user information and system integrity.
+  - Compatibility Testing:
+    Compatibility testing will validate the app's functionality and performance across different devices, operating systems, and web browsers to ensure consistent behavior.
+
+- Test Techniques
+  - Black-box Testing:
+    Black-box testing will focus on testing the Duolingo app's functionalities without considering its internal structure, simulating user interactions and verifying expected outcomes.
+  - White-box Testing:
+    White-box testing will involve examining the internal structure and logic of the app, verifying the correctness of code implementation and uncovering potential defects.
+  - Exploratory Testing:
+    Exploratory testing will involve simultaneous test design, execution, and learning, where testers explore the Duolingo app dynamically to identify defects and gain insights.
+  - Boundary Value Analysis:
+    Boundary value analysis will be used to test inputs at the boundaries and beyond, helping identify potential issues related to limits, constraints, and edge cases.
+  - Equivalence Partitioning:
+    Equivalence partitioning will be employed to select representative test cases from groups of input data, ensuring efficient coverage of different scenarios while reducing redundancy.
+
+- Entry and Exit Criteria
+  - Entry Criteria:
+    The entry criteria will define the conditions that must be met before starting testing, such as completion of development activities, availability of test environment, test data, and finalized requirements.
+  - Exit Criteria:
+    The exit criteria will outline the conditions to be satisfied for completing testing, such as achieving a predefined test coverage, resolving critical defects, meeting performance targets, and obtaining stakeholder approval.
+
+- Suspension and Resumption Criteria
+  - Suspension Criteria:
+    Suspension criteria will be defined to determine when testing activities should be temporarily halted, such as the discovery of critical defects, resource constraints, or changes in project priorities.
+  - Resumption Criteria:
+    Resumption criteria will specify the conditions under which testing activities can be resumed, such as successful resolution of critical defects, availability of required resources, or updated project priorities.
+
+- Test Deliverables
+  - Test Plans: The test plan document outlining the overall testing approach, objectives, and scope.
+  - Test Scripts: Detailed scripts providing step-by-step instructions for executing specific test scenarios.
+  - Test Cases: Specific test cases designed to verify different functionalities and requirements of the Duolingo app.
+  - Test Data: Required data sets, including user profiles, language courses, and progress levels, used during testing.
+  - Test Logs: Detailed records of executed tests, including test execution results, issues encountered, and relevant information for   analysis.
+  - Defect Reports: Documented defects with clear descriptions, steps to reproduce, and severity/priority classifications.
+  - Test Summary Reports: Summarized reports capturing the overall testing progress, test coverage, and key findings and recommendations for stakeholders' review.
