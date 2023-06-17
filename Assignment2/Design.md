@@ -69,15 +69,10 @@ Course Selection Screen: Allows users to browse and select their desired languag
 Lesson Interface: Presents lesson content, exercises, and progress indicators.
 Exercise Interface: Displays exercises with options and provides feedback on user responses.
 Progress Dashboard: Shows user progress, achievements, and personalized recommendations.
+
 9. Activity Diagrams:
-User Registration Activity Diagram:
-User Registration Activity Diagram
 
-Lesson Completion Activity Diagram:
-Lesson Completion Activity Diagram
-
-Exercise Completion Activity Diagram:
-Exercise Completion Activity Diagram
+<img width="1000" alt="Activity Diagram" src="https://images.squarespace-cdn.com/content/v1/59e0098759cc68d1fa36446c/1509381149396-HD5K49J16L2942YM9UVL/existing+flowv2.png?format=2500w">
 
 10. Implementation Details:
 The Duolingo application can be implemented as a mobile application using technologies such as React Native or as a web application using frameworks like React.js.
