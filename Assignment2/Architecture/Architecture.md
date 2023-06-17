@@ -16,7 +16,7 @@ Duolingo is a popular language-learning platform that utilizes a specific archit
 
 7. **Social Features:** Duolingo includes social features that enable users to connect with friends, compete in leaderboards, and share achievements. This social aspect adds a collaborative and competitive element to the learning process, fostering engagement and a sense of community among users.
 
-![Architectural Flow](../Images/Architecture.png)
+![Architectural Flow](../../Images/Architecture.png)
 
 ### C4 MODEL OF ARCHITECTURE
 
@@ -30,7 +30,8 @@ Level 1, a system context diagram, shows the software system  bwe have built and
 
 Here is an example of a system context diagram that describes how a language enthusiast uses Duolingo app to learn or teach a new language.
 
-**Context Diagram** - [Here](https://github.com/SWENGG4Y2023/SWENGG4Y2023Team07/blob/main/Assignment2/ContextDiagram.puml)
+**Context Diagram** - 
+[![Here](ContextDiagram.png)](https://github.com/SWENGG4Y2023/SWENGG4Y2023Team07/blob/main/Assignment2/Architecture/ContextDiagram.puml)
 
 
 ####  Container diagram
@@ -42,13 +43,16 @@ It shows that the Duolingo is made up of five containers: a server-side web appl
 **Age**: 22
 **Occupation**: College student
 **Background**: Lewis is a college student who wants to improve his language skills to enhance his job prospects. He is interested in learning German and uses Duolingo regularly to practice his language skills. He prefers the app because it is convenient and flexible, allowing him to learn at his own pace.
-**Context Diagram** - [Here](https://github.com/SWENGG4Y2023/SWENGG4Y2023Team07/blob/main/Assignment2/ContainerLearner.puml)
+**Context Diagram** - 
+
+[![Here](ContainerLearner.png)](https://github.com/SWENGG4Y2023/SWENGG4Y2023Team07/blob/main/Assignment2/Architecture/ContainerLearner.puml)
 
 
 * **Educator persona**: Lilith 
 **Age**: 22
 **Occupation**: School Teacher
 **Background**: Lilith is a school teacher who wants to use the app as a teaching platform for her students. She believes that learning can be hybrid in a way that she teaches her students Italian in school and they can pratcise their lesson of the day on Duolingo for School. This enables students to pratise in a fun and exiciting way. It makes it easier to grade her students from the platform as well.
-**Context Diagram** - [Here](https://github.com/SWENGG4Y2023/SWENGG4Y2023Team07/blob/main/Assignment2/ContainerTeacher.puml)
+**Context Diagram** - 
+[![Here](ContainerTeacher.png)](https://github.com/SWENGG4Y2023/SWENGG4Y2023Team07/blob/main/Assignment2/Architecture/ContainerTeacher.puml)
 
 
