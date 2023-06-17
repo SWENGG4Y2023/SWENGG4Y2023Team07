@@ -1,0 +1,27 @@
+@startuml
+title Duolingo Learning Flow for Teachers
+
+actor Teacher as "Teacher Persona"
+participant "Duolingo" as DL
+
+== Set up and Account Creation ==
+Teacher -> DL: Set up Account
+
+== Classroom Creation ==
+Teacher -> DL: Create Classroom
+Teacher -> DL: Invite Students
+
+== Goal Setting and Tracking ==
+Teacher -> DL: Set Goals
+Teacher -> DL: Track Progress
+
+== Lesson Assignment ==
+Teacher -> DL: Assign Lessons
+
+== Monitoring and Feedback ==
+Teacher -> DL: Monitor Student Activity
+Teacher -> DL: Provide Feedback
+
+== Supplement with Classroom Activities ==
+Teacher -> DL: Combine with In-Class Activities
+@enduml

@@ -1,0 +1,50 @@
+@startuml
+title Duolingo Learning Flow
+
+actor Student as "Lewis - College Student"
+participant "Duolingo" as Duolingo
+
+== Sign up and Language Selection ==
+Student -> Duolingo: Sign up/ Login to existing account
+Student -> Duolingo: Language Selected as German
+
+== Optional Placement Test ==
+alt Prior Knowledge
+    Student -> Duolingo: Take Placement Test
+else No Prior Knowledge
+    Student -> Duolingo: Lesson Selection
+end
+
+== Lesson Selection and Learning ==
+Student -> Duolingo: Lesson Selection from Home screen
+Student -> Duolingo: Learning Interface
+Student -> Duolingo: Practice Questions and Feedback
+
+== Gamification and Progress Tracking ==
+Student -> Duolingo: Gamification Elements
+Student -> Duolingo: Progress Tracking
+
+== Optional Duolingo Plus and Social Features ==
+opt Duolingo Plus
+    Student -> Duolingo: Duolingo Plus (Optional)
+end
+
+opt Social Features
+    Student -> Duolingo: Connect with Friends
+    Student -> Duolingo: Compete on Leaderboards
+    Student -> Duolingo: Language Challenges
+    Student -> Duolingo: Join Communities or Language Clubs
+end
+
+== Continuous Learning ==
+loop Continuous Learning
+    Student -> Duolingo: Lesson Selection
+    Student -> Duolingo: Learning Interface
+    Student -> Duolingo: Practice and Feedback
+end
+
+== Understand basic German language ==
+Student -> Duolingo: Gives 5-Star Rating to app
+Student -> Duolingo: Provides Feedback for improvemnt
+
+@enduml

@@ -37,6 +37,9 @@
 	- [5.2 Safety Requirements:](#52-safety-requirements)
 	- [5.3 Security Requirements:](#53-security-requirements)
 	- [5.4 Software Quality Attributes:](#54-software-quality-attributes)
+	- [5.5 Maintainability Requirements:](#55-maintainability-requirements)
+	- [5.6 Reliability Requirements:](#56-reliability-requirements)
+	- [5.7 Interoperability Requirements:](#57-interoperability-requirements)
 ## 1. Introduction
 ### 1.1 Purpose 
 The purpose of this document is to provide a comprehensive software requirements specification for the Duolingo language learning application. This document will serve as a reference for the development team and stakeholders involved in the project to ensure that the final product meets the requirements and expectations of all parties involved.
@@ -86,7 +89,7 @@ The Duolingo app is equipped with a wide range of features that cater to the nee
 6. Social features that allow users to connect with friends from contact list and compete with them in language learning challenges.
 
 ### 2.3. User Classes and Characteristics:
-The Duolingo app is designed for users of all ages and backgrounds who are interested in learning a new language or improving their language proficiency. We can classify our users into 3 main categories: 
+The Duolingo app is designed for users of all ages and backgrounds who are interested in learning a new language or improving their language proficiency. 
 
 **Language Experts:**
 These are the users teaching, providing and approving content for the particular language. They have a expertise in their choice of language.
@@ -119,16 +122,18 @@ Duolingo is a language-learning platform that provides users with a gamified and
 4. **Network Constraints**: Duolingo requires an internet connection to function. The application should be optimized enough to work well even in areas with poor or fluctuating connectivity without losing user progress.
 5. **Storage Constraints**: Duolingo contains a large amount of data, including text, images, and audio files. Developers need to ensure that the app is designed to minimize storage usage on users' devices.
 6. **Gamification Constraints**: Duolingo relies heavily on gamification of almost all its elements, to engage users and motivate them to continue learning. The app needs to be designed with gamification features that are both fun and effective in encouraging language learning. This should be supported by the devices without causing disturbances or issues in the user interface.
-7. **Security Constrains**: Duolingo provides social features, it should be able to guarantee the safety of all the users there are many underage users present too. It must be able to protect all the user data and progress for all its users.
+7. **Security Constraints**: Duolingo provides social features, it should be able to guarantee the safety of all the users there are many underage users present too. It must be able to protect all the user data and progress for all its users.
 
 ### 2.6. User Documentation:
- The Duolingo application provides user documentation in the form of a help centers, user guides, and a community forum. The help center provides answers to frequently asked questions, while the user guides provide step-by-step instructions on how to use the app. The community forum allows users to connect with other language learners, ask questions, and share tips and strategies.
+ The Duolingo application provides user documentation in the form of help centers, user guides, and a community forum. The help center provides answers to frequently asked questions, while the user guides provide step-by-step instructions on how to use the app. The community forum allows users to connect with other language learners, ask questions, and share tips and strategies.
+
+ The latest feature added to Duolingo is the podcasts language enthusiasts can listen to anywhere, everywhere.
 
 ### 2.7. Assumptions and Dependencies:
 The Duolingo app is developed with the following assumptions:
 1. Users have an internet connection: Duolingo assumes that users have access to a stable active internet connection. 
-2. Users are motivated to learn: Duolingo assumes that users are motivated to learn a new language. The app relies heavily on gamification to keep users engaged and motivated.Users should be willing to invest time and effort in learning a new language.
-3. Users have basic technical skills: Duolingo assumes the users have a very basic computer and mobile device literacy skills. Also they should be able to communicate and interact with the application in a particular language.
+2. Users are motivated to learn: Duolingo assumes that users are motivated to learn a new language. The app relies heavily on gamification to keep users engaged and motivated. Users should be willing to invest time and effort in learning a new language.
+3. Users have basic technical skills: Duolingo assumes the users have very basic computer and mobile device literacy skills. Also, they should be able to communicate and interact with the application in a particular language.
 The app is dependent on third-party software and services, such as hosting and cloud storage providers.
 
 Duolingo application has the following dependencies:
