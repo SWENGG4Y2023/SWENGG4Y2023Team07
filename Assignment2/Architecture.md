@@ -10,7 +10,7 @@ Duolingo is a popular language-learning platform that utilizes a specific archit
 
 4. **Adaptive Learning:** The platform utilizes adaptive learning techniques to personalize the learning experience for each user. Duolingo tracks user performance and adjusts the difficulty of exercises and lessons based on individual strengths and weaknesses. This adaptive approach ensures that learners receive appropriate challenges and targeted practice in areas they need to improve.
 
-5. **Bite-sized Lessons:** Duolingo employs a microlearning approach by offering short, bite-sized lessons that can be completed in a few minutes. This allows users to fit language learning into their daily routines and promotes regular practice. The lessons are designed to be interactive and include exercises like translation, matching, listening comprehension, and speaking practice.
+5. **Bite-sized Lessons:** Duolingo employs a micro-learning approach by offering short, bite-sized lessons that can be completed in a few minutes. This allows users to fit language learning into their daily routines and promotes regular practice. The lessons are designed to be interactive and include exercises like translation, matching, listening comprehension, and speaking practice.
 
 6. **Crowdsourced Translation:** Duolingo incorporates a unique feature called "Duolingo for Schools" that allows users to contribute to real-world translations while learning. Users can translate sentences or documents, which helps in language immersion and provides practical application of the language skills they are learning.
 
@@ -20,23 +20,23 @@ Duolingo is a popular language-learning platform that utilizes a specific archit
 
 ### C4 MODEL OF ARCHITECTURE
 
-C4 stands for **context**, **containers**, **components**, and **code** — a set of hierarchical diagrams that we have used to describe our software architecture at different zoom levels, each useful for different audiences.
+C4 stands for **context**, **containers**, **components**, and **code** — a set of hierarchical diagrams that we have used to describe our software architecture at different zoom levels, each valid for different audiences.
 
 The C4 model considers the static structures of a software system in terms of containers (applications, data stores, microservices, etc.), components, and code. It also considers the people who use the software systems that we build.
 
 
 ####  System context diagram
-Level 1, a system context diagram, shows the software system  bwe have built and how it fits into the world in terms of the people who use it and the other software systems it interacts with. 
+Level 1, a system context diagram, shows the software system we have built and how it fits into the world in terms of the people who use it and the other software systems it interacts with. 
 
-Here is an example of a system context diagram that describes how a language enthusiast uses Duolingo app to learn or teach a new language.
+Here is an example of a system context diagram that describes how a language enthusiast uses the Duolingo app to learn or teach a new language.
 
 **Context Diagram** - [Here](https://github.com/SWENGG4Y2023/SWENGG4Y2023Team07/blob/main/Assignment2/ContextDiagram.puml)
 
 
 ####  Container diagram
-Level 2, a container diagram, zooms into the software system, and shows the containers (applications, data stores, microservices, etc.) that make up that software system. Technology decisions are also a key part of this diagram.
+Level 2, a container diagram, zooms into the software system and shows the containers (applications, data stores, microservices, etc.) that make up that software system. Technology decisions are also a key part of this diagram.
 
-It shows that the Duolingo is made up of five containers: a server-side web application, a client-side single-page application, a mobile app, a server-side API application, and a database.
+It shows that Duolingo comprises five containers: a server-side web application, a client-side single-page application, a mobile app, a server-side API application, and a database.
 
 * **Learner persona**: Lewis 
 **Age**: 22
@@ -48,7 +48,7 @@ It shows that the Duolingo is made up of five containers: a server-side web appl
 * **Educator persona**: Lilith 
 **Age**: 22
 **Occupation**: School Teacher
-**Background**: Lilith is a school teacher who wants to use the app as a teaching platform for her students. She believes that learning can be hybrid in a way that she teaches her students Italian in school and they can pratcise their lesson of the day on Duolingo for School. This enables students to pratise in a fun and exiciting way. It makes it easier to grade her students from the platform as well.
+**Background**: Lilith is a school teacher who wants to use the app as a teaching platform for her students. She believes that learning can be hybrid in the way that she teaches her students Italian in school and they can practice their lesson of the day on Duolingo for School. This enables students to practice in a fun and exciting way. It makes it easier to grade her students from the platform as well.
 **Context Diagram** - [Here](https://github.com/SWENGG4Y2023/SWENGG4Y2023Team07/blob/main/Assignment2/ContainerTeacher.puml)
 
 
