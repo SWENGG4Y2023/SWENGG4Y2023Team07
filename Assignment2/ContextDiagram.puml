@@ -1,0 +1,38 @@
+@startuml
+
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include FONTAWESOME/users.puml
+
+!$COLOR_A_5 = "#7f3b08"
+!$COLOR_A_4 = "#b35806"
+!$COLOR_A_3 = "#e08214"
+!$COLOR_A_2 = "#fdb863"
+!$COLOR_A_1 = "#fee0b6"
+!$COLOR_NEUTRAL = "#f7f7f7"
+!$COLOR_B_1 = "#d8daeb"
+!$COLOR_B_2 = "#b2abd2"
+!$COLOR_B_3 = "#8073ac"
+!$COLOR_B_4 = "#542788"
+!$COLOR_B_5 = "#2d004b"
+!$COLOR_REL_LINE = "#8073ac"
+!$COLOR_REL_TEXT = "#8073ac"
+
+UpdateElementStyle("person", $bgColor=$COLOR_A_5, $fontColor=$COLOR_NEUTRAL, $borderColor=$COLOR_A_1, $shadowing="true", $legendText="Learner/Educator")
+UpdateElementStyle("external_system", $bgColor=$COLOR_A_4, $fontColor=$COLOR_NEUTRAL, $borderColor=$COLOR_B_1, $legendText="External user")
+UpdateElementStyle("system", $bgColor=$COLOR_A_3, $fontColor=$COLOR_NEUTRAL, $borderColor=$COLOR_A_2, $sprite="robot", $legendText="Our chatbot based system")
+' UpdateElementStyle("external_system", $bgColor=$COLOR_B_4, $fontColor=$COLOR_NEUTRAL, $borderColor=$COLOR_B_2, $legendText="External system")
+UpdateRelStyle($lineColor=$COLOR_REL_LINE, $textColor=$COLOR_REL_TEXT)
+' >>>>> end of section
+
+Person(user, "User", "Could be a language learner, language expert or an educator.", $sprite="users")
+
+System(app, "DUOLINGO", "Allows language enthusiasts to learn or teach a new language through use of a combination of interactive exercises, quizzes, and games to teach vocabulary, grammar, and pronunciation in a fun and intuitive way.")
+
+System_Ext(result, "The language enthusiast has communication skills focusing on real-life scenarios in the new language. He can speak, write and understand common phrases that are used in everyday conversations.")
+
+Rel(user, app, "Sign Up/ Login")
+Rel(app, result, "Continous learning and achieving milestones")
+
+@enduml

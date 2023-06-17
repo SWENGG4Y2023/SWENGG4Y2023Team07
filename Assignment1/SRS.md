@@ -37,6 +37,9 @@
 	- [5.2 Safety Requirements:](#52-safety-requirements)
 	- [5.3 Security Requirements:](#53-security-requirements)
 	- [5.4 Software Quality Attributes:](#54-software-quality-attributes)
+	- [5.5 Maintainability Requirements:](#55-maintainability-requirements)
+	- [5.6 Reliability Requirements:](#56-reliability-requirements)
+	- [5.7 Interoperability Requirements:](#57-interoperability-requirements)
 ## 1. Introduction
 ### 1.1 Purpose 
 The purpose of this document is to provide a comprehensive software requirements specification for the Duolingo language learning application. This document will serve as a reference for the development team and stakeholders involved in the project to ensure that the final product meets the requirements and expectations of all parties involved.
@@ -86,7 +89,7 @@ The Duolingo app is equipped with a wide range of features that cater to the nee
 6. Social features that allow users to connect with friends from contact list and compete with them in language learning challenges.
 
 ### 2.3. User Classes and Characteristics:
-The Duolingo app is designed for users of all ages and backgrounds who are interested in learning a new language or improving their language proficiency. We can classify our users into 3 main categories: 
+The Duolingo app is designed for users of all ages and backgrounds who are interested in learning a new language or improving their language proficiency. 
 
 **Language Experts:**
 These are the users teaching, providing and approving content for the particular language. They have a expertise in their choice of language.
@@ -123,6 +126,8 @@ Duolingo is a language-learning platform that provides users with a gamified and
 
 ### 2.6. User Documentation:
  The Duolingo application provides user documentation in the form of a help centers, user guides, and a community forum. The help center provides answers to frequently asked questions, while the user guides provide step-by-step instructions on how to use the app. The community forum allows users to connect with other language learners, ask questions, and share tips and strategies.
+
+ The latest feature added to Duolingo are the podcasts language enthusiasts can hear to anywhere, everywhere.
 
 ### 2.7. Assumptions and Dependencies:
 The Duolingo app is developed with the following assumptions:
