@@ -38,19 +38,19 @@ Level 2, a container diagram, zooms into the software system and shows the conta
 
 It shows that Duolingo comprises five containers: a server-side web application, a mobile app, a server-side API application, ML models, and a database.
 
-* **Learner persona**: Lewis 
-**Age**: 22
-**Occupation**: College student
-**Background**: Lewis is a college student who wants to improve his language skills to enhance his job prospects. He is interested in learning German and uses Duolingo regularly to practice his language skills. He prefers the app because it is convenient and flexible, allowing him to learn at his own pace.
-
+1. **Learner persona**
+* **Name**: Lewis 
+* **Age**: 22
+* **Occupation**: College student
+* **Background**: Lewis is a college student who wants to improve his language skills to enhance his job prospects. He is interested in learning German and uses Duolingo regularly to practice his language skills. He prefers the app because it is convenient and flexible, allowing him to learn at his own pace.
+  
 [![Here](ContainerLearner.png)](https://github.com/SWENGG4Y2023/SWENGG4Y2023Team07/blob/main/Assignment2/Architecture/ContainerLearner.puml)
 
 
-* **Educator persona**: Lilith 
-**Age**: 22
-**Occupation**: School Teacher
-**Background**: Lilith is a school teacher who wants to use the app as a teaching platform for her students. She believes that learning can be hybrid in the way that she teaches her students Italian in school and they can practice their lesson of the day on Duolingo for School. This enables students to practice in a fun and exciting way. It makes it easier to grade her students from the platform as well.
-  
+2. **Educator persona**
+* **Name**: Lilith 
+* **Age**: 22
+* **Occupation**: School Teacher
+* **Background**: Lilith is a school teacher who wants to use the app as a teaching platform for her students. She believes that learning can be hybrid in the way that she teaches her students Italian in school and they can practice their lesson of the day on Duolingo for School. This enables students to practice in a fun and exciting way. It makes it easier to grade her students from the platform as well.
+
 [![Here](ContainerTeacher.png)](https://github.com/SWENGG4Y2023/SWENGG4Y2023Team07/blob/main/Assignment2/Architecture/ContainerTeacher.puml)
-
-
